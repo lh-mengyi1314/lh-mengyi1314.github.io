@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://imengyi.xyz</id>
+    <id>http://imengyi.xyz</id>
     <title>l&amp;meng</title>
-    <updated>2020-07-04T11:30:19.172Z</updated>
+    <updated>2020-07-04T11:30:45.399Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://imengyi.xyz"/>
-    <link rel="self" href="https://imengyi.xyz/atom.xml"/>
+    <link rel="alternate" href="http://imengyi.xyz"/>
+    <link rel="self" href="http://imengyi.xyz/atom.xml"/>
     <subtitle>学如逆水行舟，不进则退</subtitle>
-    <logo>https://imengyi.xyz/images/avatar.png</logo>
-    <icon>https://imengyi.xyz/favicon.ico</icon>
+    <logo>http://imengyi.xyz/images/avatar.png</logo>
+    <icon>http://imengyi.xyz/favicon.ico</icon>
     <rights>All rights reserved 2020, l&amp;meng</rights>
     <entry>
         <title type="html"><![CDATA[黑科技目录(每周一更)]]></title>
-        <id>https://imengyi.xyz/HdS_1rQOF/</id>
-        <link href="https://imengyi.xyz/HdS_1rQOF/">
+        <id>http://imengyi.xyz/HdS_1rQOF/</id>
+        <link href="http://imengyi.xyz/HdS_1rQOF/">
         </link>
         <updated>2020-07-04T10:37:08.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[kiwi浏览器使用]]></title>
-        <id>https://imengyi.xyz/6hHQv57nF/</id>
-        <link href="https://imengyi.xyz/6hHQv57nF/">
+        <id>http://imengyi.xyz/6hHQv57nF/</id>
+        <link href="http://imengyi.xyz/6hHQv57nF/">
         </link>
         <updated>2020-07-04T10:36:03.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[浏览器如何安装Chrome插件【PC】]]></title>
-        <id>https://imengyi.xyz/QZICRZIrV/</id>
-        <link href="https://imengyi.xyz/QZICRZIrV/">
+        <id>http://imengyi.xyz/QZICRZIrV/</id>
+        <link href="http://imengyi.xyz/QZICRZIrV/">
         </link>
         <updated>2020-07-04T10:34:57.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Win10 系统的疑难杂症处理教程]]></title>
-        <id>https://imengyi.xyz/xD0xZtqj0/</id>
-        <link href="https://imengyi.xyz/xD0xZtqj0/">
+        <id>http://imengyi.xyz/xD0xZtqj0/</id>
+        <link href="http://imengyi.xyz/xD0xZtqj0/">
         </link>
         <updated>2020-07-04T10:32:40.000Z</updated>
     </entry>
