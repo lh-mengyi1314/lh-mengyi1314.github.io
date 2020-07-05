@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-07-04T14:29:21.623Z</updated>
+    <updated>2020-07-05T11:01:46.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>http://imengyi.ink/images/avatar.png</logo>
     <icon>http://imengyi.ink/favicon.ico</icon>
     <rights>All rights reserved 2020, l&amp;meng</rights>
+    <entry>
+        <title type="html"><![CDATA[【考研】进入大三啦，考研初准备]]></title>
+        <id>http://imengyi.ink/_4jKKQ_Wj/</id>
+        <link href="http://imengyi.ink/_4jKKQ_Wj/">
+        </link>
+        <updated>2020-07-05T10:24:57.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="引言">引言</h3>
+<p>2019-2020这一年由于疫情，在家只能上网课，学习的效率也是很不理想（原因：大家都懂，一会就开小差了）。到期末考试，我们学校决定考试只能线下考，所以我就只能办个缓考证明，这就比较尴尬啦（等开学基本上也忘得差不多啦）。现在面临的处境是：</p>
+<ul>
+<li>1、大二期末考试。</li>
+<li>2、第二学历考试推迟（下次要多考二门）</li>
+<li>3、进入大三啦，考研的事情要着手去准备啦。</li>
+</ul>
+<h3 id="1-大二期末考试">1、大二期末考试</h3>
+<p>这个其实就是不断地去刷题，没有题库的就是去看书，也没什么捷径可走</p>
+<h3 id="2-第二学历考试">2、第二学历考试</h3>
+<p>现在在家，就刷课，做题。</p>
+<h3 id="3-考研初准备">3、考研初准备</h3>
+<p>现在已经会去买一些专业课的书去看看，还是多见见题吧，题海战术。</p>
+<p>遇到的相关问题，我会及时发上来的，搞一个问题专题（专业课问题）和考研的相关资讯。</p>
+<p>有志向相同的同学们可以评论区留言讨论！！！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[聊一聊电影]]></title>
         <id>http://imengyi.ink/dWJnu47Zc/</id>
@@ -82,9 +105,7 @@
 如果链接失效或无法观看<br>
 进入<a href="http://imengyi.ink/post/hei-ke-ji-mu-lu/">黑科技目录</a>查找更多影视</p>
 <p><strong>文章来源</strong><br>
-<a href="https://zhuanlan.zhihu.com/p/23428313">知乎</a><br>
-<strong>联系博主</strong><br>
-@📪邮箱<a href="mailto:lh103995@dingtalk.com">lh103995@dingtalk.com</a></p>
+<a href="https://zhuanlan.zhihu.com/p/23428313">知乎</a></p>
 ]]></content>
     </entry>
     <entry>
@@ -152,8 +173,6 @@
 <p>努力提高心性，才是人生之目的所在。拥有这种人生价值观的人，才能拥有幸福的人生。</p>
 <h3 id="看书软件分享">看书软件分享</h3>
 <p>【藏书馆】、【笔趣阁】（各大应用商店均可下载）</p>
-<h3 id="联系博主">联系博主</h3>
-<p>@邮箱📫<a href="mailto:lh103995@dingtalk.com">lh103995@dingtalk.com</a></p>
 ]]></content>
     </entry>
     <entry>
@@ -825,8 +844,6 @@ Windows无法更新，无法启用功能 ，0x8000FFFF错误，系统存在损�
 </ul>
 <h3 id="来源">来源</h3>
 <p>各大网站整理所得</p>
-<h3 id="联系博主">联系博主</h3>
-<p>@邮箱📫<a href="mailto:lh103995@dingtalk.com">lh103995@dingtalk.com</a></p>
 ]]></content>
     </entry>
 </feed>
