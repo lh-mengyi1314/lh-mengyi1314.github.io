@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-07-05T12:28:43.598Z</updated>
+    <updated>2020-07-05T17:08:52.077Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -11,6 +11,13 @@
     <icon>http://imengyi.ink/favicon.ico</icon>
     <rights>All rights reserved 2020, l&amp;meng</rights>
     <entry>
+        <title type="html"><![CDATA[【学习】Gridea+Github部署个人博客]]></title>
+        <id>http://imengyi.ink/zbWUCelAN/</id>
+        <link href="http://imengyi.ink/zbWUCelAN/">
+        </link>
+        <updated>2020-07-05T15:34:50.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【考研】进入大三啦，考研初准备]]></title>
         <id>http://imengyi.ink/4uoA75UFN/</id>
         <link href="http://imengyi.ink/4uoA75UFN/">
@@ -18,42 +25,42 @@
         <updated>2020-07-05T12:27:24.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[聊一聊电影]]></title>
+        <title type="html"><![CDATA[【人文】聊一聊电影]]></title>
         <id>http://imengyi.ink/dWJnu47Zc/</id>
         <link href="http://imengyi.ink/dWJnu47Zc/">
         </link>
         <updated>2020-07-04T14:26:32.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[人总要相信点什么]]></title>
+        <title type="html"><![CDATA[【人文】人总要相信点什么]]></title>
         <id>http://imengyi.ink/V9c2aNH3Q/</id>
         <link href="http://imengyi.ink/V9c2aNH3Q/">
         </link>
         <updated>2020-07-04T14:23:33.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[黑科技目录(每周一更)]]></title>
+        <title type="html"><![CDATA[【学习】黑科技目录(每周一更)]]></title>
         <id>http://imengyi.ink/HdS_1rQOF/</id>
         <link href="http://imengyi.ink/HdS_1rQOF/">
         </link>
         <updated>2020-07-04T10:37:08.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[kiwi浏览器使用]]></title>
+        <title type="html"><![CDATA[【学习】kiwi浏览器使用]]></title>
         <id>http://imengyi.ink/6hHQv57nF/</id>
         <link href="http://imengyi.ink/6hHQv57nF/">
         </link>
         <updated>2020-07-04T10:36:03.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[浏览器如何安装Chrome插件【PC】]]></title>
+        <title type="html"><![CDATA[【学习】浏览器如何安装Chrome插件]]></title>
         <id>http://imengyi.ink/QZICRZIrV/</id>
         <link href="http://imengyi.ink/QZICRZIrV/">
         </link>
         <updated>2020-07-04T10:34:57.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Win10 系统的疑难杂症处理教程]]></title>
+        <title type="html"><![CDATA[【学习】Win10 系统的疑难杂症处理教程]]></title>
         <id>http://imengyi.ink/xD0xZtqj0/</id>
         <link href="http://imengyi.ink/xD0xZtqj0/">
         </link>
