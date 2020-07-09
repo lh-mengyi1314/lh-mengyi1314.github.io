@@ -83,7 +83,7 @@
             
               
             
-            <li class="nav-item ">
+            <li class="nav-item nav-item-active">
               
               
                 <a href="/" target="_self">
@@ -193,7 +193,7 @@
   <div class="main-continer">
     
     <div
-      class="section-layout  gemini">
+      class="section-layout gemini ">
       <div class="section-layout-wrapper">
         <div id="sidebarMeta" class="sidebar">
     
@@ -282,81 +282,97 @@
     });
   }
   </script>
-        <div class="section-box tag-line box-shadow-wrapper">
-          <section class="section tags-section posts-expand bg-color">
-            <div class="padding-wrapper">
-  <div class="tag-timeline-box">
-    <div class="tag-timeline-wrapper">
-      <div class="tag-timeline-title">
-        <h2>
-          考研
-          <small class="language" data-lan="tag">标签</small>
-        </h2>
-      </div>
+        <div class="section-box gemini">
+          <section class="section  posts-expand slide-down-in">
+            
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="http://imengyi.ink/xD0xZtqj0/">
+      【学习】Win10 系统的疑难杂症处理教程
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-07-04 18:32:40">2020-07-04</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <a href="http://imengyi.ink/4uoA75UFN/">
-        <div class="motion-warpper">
-          <div class="tag-post-node">
-            <h1>
-              07-05
-              <small>【考研】进入大三啦，考研初准备</small>
-            </h1>
-          </div>
-        </div>
+      <a href="http://imengyi.ink/9evfAEDJj/">
+        <span>学习</span>
       </a>
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>5<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>1238<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="http://imengyi.ink/xD0xZtqj0/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
       
     </div>
-  </div>
+  </article>
+  
+            
+            
+<div class="page bg-color">
+  <ul class="pagination-ul">
+    
+      <li class="pagination-dir">
+        <a href="http://imengyi.ink/">
+          <i class="fa fa-angle-left"></i>
+        </a>
+      </li>
+    
+    
+      
+        <li class="pagination-li ">
+            <a href="/page/../">
+              1
+            </a>
+        </li>
+      
+        <li class="pagination-li pagination-active">
+            <a href="/page/2">
+              2
+            </a>
+        </li>
+      
+    
+    
+  </ul>
 </div>
           </section>
         </div>
@@ -1102,6 +1118,36 @@
     });
   }
 
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px;border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
 </script>
   </div>
 </body>
