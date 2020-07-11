@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-07-11T12:28:02.943Z</updated>
+    <updated>2020-07-11T12:43:51.301Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -16,6 +16,14 @@
         <link href="http://imengyi.ink/y30O-bV6m/">
         </link>
         <updated>2020-07-09T16:49:23.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2020/07/10/UuPCmn.jpg" alt="" loading="lazy"><br>
+<img src="https://s1.ax1x.com/2020/07/10/UuPpOs.jpg" alt="" loading="lazy"><br>
+<img src="https://s1.ax1x.com/2020/07/10/UuPiT0.jpg" alt="" loading="lazy"><br>
+<img src="https://s1.ax1x.com/2020/07/10/UuPPwq.jpg" alt="" loading="lazy"><br>
+<img src="https://s1.ax1x.com/2020/07/10/UuPSyj.jpg" alt="" loading="lazy"><br>
+<img src="https://s1.ax1x.com/2020/07/10/UuPkkV.jpg" alt="" loading="lazy"></p>
+<p>转载自：【<a href="https://zhuanlan.zhihu.com/p/32026754">知乎</a>】</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【整理笔记】概率论与数理统计]]></title>
@@ -23,6 +31,92 @@
         <link href="http://imengyi.ink/T5HLIAf_m/">
         </link>
         <updated>2020-07-09T16:27:36.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="概率论与数理统计笔记-目录与导航">概率论与数理统计笔记 目录与导航</h2>
+<h3 id="概率论与数理统计公式大全">概率论与数理统计公式大全</h3>
+<h3 id="概率论与数理统计考试真题">概率论与数理统计考试真题</h3>
+<h3 id="第一章-概率论的基本概念">第一章 概率论的基本概念</h3>
+<pre><code>第0讲 绪论
+第1讲 样本空间，随机事件
+第2讲 事件的相互关系及运算
+第3讲 频率
+第4讲 概率
+第5讲 等可能概型（古典概型）
+第6讲 条件概率
+第7讲 全概率公式与贝叶斯公式
+第8讲 事件独立性
+</code></pre>
+<h3 id="第二章-随机变量及其概率分布">第二章 随机变量及其概率分布</h3>
+<pre><code>第9讲 随机变量
+第10讲 离散型随机变量
+第11讲 分布函数
+第12讲 连续型随机变量及其概率密度
+第13讲 均匀分布和指数分布
+第14讲 正态分布
+第15讲 随机变量函数的分布
+</code></pre>
+<h3 id="第三章-二元随机变量及其分布">第三章 二元随机变量及其分布</h3>
+<pre><code>第16讲 二元随机变量，离散型随机变量分布律
+第17讲 二元离散型随机变量边际分布律与条件分布律
+第18讲 二元随机变量分布函数、边际分布函数及条件分布函数
+第19讲 二元连续型随机变量，联合概率密度
+第20讲 二元连续型随机变量边际概率密度
+第21讲 二元连续型随机变量条件概率密度
+第22讲 二元均匀分布，二元正态分布
+第23讲 随机变量的独立性
+第24讲 二元随机变量函数的分布
+第25讲 z=X+Y 的分布
+第26讲 max(X,Y) 和 min(X,Y) 的分布
+</code></pre>
+<h3 id="第四章-随机变量的数字特征">第四章 随机变量的数字特征</h3>
+<pre><code>第27讲 随机变量的数学期望
+第28讲 随机变量函数的数学期望
+第29讲 数学期望的性质
+第30讲 方差定义和计算公式
+第31讲 方差的性质
+第32讲 协方差与相关系数
+第33讲 不相关与独立
+第34讲 矩，协方差矩阵，多元正态分布的性质
+</code></pre>
+<h3 id="第五章-大数定律及中心极限定理">第五章 大数定律及中心极限定理</h3>
+<pre><code>第36讲 依概率收敛，切比雪夫不等式
+第36讲 大数定律
+第37讲 中心极限定理
+</code></pre>
+<h3 id="第六章-统计量与抽样分布">第六章 统计量与抽样分布</h3>
+<pre><code>第38讲 总体，样本
+第39讲 统计量，常用统计量
+第40讲 [公式] 分布
+第41讲 [公式] 分布， [公式] 分布
+第42讲 单个正态总体的抽样分布
+第43讲 两个正态总体的抽样分布
+</code></pre>
+<h3 id="第七章-参数估计">第七章 参数估计</h3>
+<pre><code>第44讲 点估计，矩估计
+第45讲 极大似然估计
+第46讲 估计量的评价准则，无偏性
+第47讲 有效性，均方误差
+第48讲 相合性
+第49讲 置信区间，置信限
+第50讲 枢轴量法
+第51讲 单个正态总体均值的区间估计
+第52讲 成对数据均值差，单个正态总体方差的区间估计
+第53讲 两个正态总体参数的区间估计
+</code></pre>
+<h3 id="第八章-假设检验">第八章 假设检验</h3>
+<pre><code>第54讲 假设检验的基本思想
+第55讲 单个正态总体参数假设检验（标准差已知，检验）
+第56讲 单个正态总体参数假设检验（标准差未知，检验）
+第57讲 单个正态总体参数假设检验（成对数据检验和参数的检验）
+第58讲 两个正态总体参数假设检验(比较两个正态总体均值的检验）
+第59讲 两个正态总体参数假设检验(比较两个正态总体方差的检验）
+第60讲 拟合优度检验
+</code></pre>
+<h3 id="第九章-方差分析与回归分析略">第九章 方差分析与回归分析（略）</h3>
+<pre><code>第61讲 单因素方差分析
+第62讲 单因素方差分析（参数估计及均值的多重比较）
+第63讲 回归分析（参数估计）
+第64讲 回归分析（模型检验与应用）</code></pre>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【游戏】经典游戏攻略]]></title>
@@ -30,6 +124,49 @@
         <link href="http://imengyi.ink/X2_wKtB6j/">
         </link>
         <updated>2020-07-07T03:29:01.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="win7自带的经典游戏">win7自带的经典游戏</h2>
+<h3 id="扫雷">扫雷</h3>
+<p>试玩点<a href="https://m.saolei.org.cn">这里</a></p>
+<p>扫雷攻略：</p>
+<p>1️⃣首先了解清楚数字代表的意义：<br>
+以2为例，2的意思是：周围有两个雷。而周围是指以这个数字为中心周围的八个格子。<br>
+<a href="https://imgchr.com/i/UFju01"><img src="https://s1.ax1x.com/2020/07/07/UFju01.th.jpg" alt="UFju01.th.jpg" loading="lazy"></a></p>
+<p>2️⃣首先大家都知道右键是封锁的意思，就是你判断出来这个是雷，所以把它封起来。<br>
+<a href="https://imgchr.com/i/UFjv4K"><img src="https://s1.ax1x.com/2020/07/07/UFjv4K.th.jpg" alt="UFjv4K.th.jpg" loading="lazy"></a></p>
+<p>3️⃣然后教大家一个小技巧：双击军旗旁边的数字，可能会开启新的数字（可以和上图对比）</p>
+<figure data-type="image" tabindex="1"><a href="https://imgchr.com/i/UFvs56"><img src="https://s1.ax1x.com/2020/07/07/UFvs56.th.jpg" alt="UFvs56.th.jpg" loading="lazy"></a></figure>
+<p>4️⃣数字比较大的话，身边的雷就比较多，3和4是最不好判断的，所以把他们多留一下，这个时候就要慢慢判断了，考虑到剩下的雷，做出综合判断。</p>
+<figure data-type="image" tabindex="2"><a href="https://imgchr.com/i/UFvrUx"><img src="https://s1.ax1x.com/2020/07/07/UFvrUx.th.jpg" alt="UFvrUx.th.jpg" loading="lazy"></a></figure>
+<h3 id="蜘蛛纸牌">蜘蛛纸牌</h3>
+<p>1.蜘蛛纸牌其实和一种古老的游戏——汉诺塔非常相似。汉诺塔的玩法，在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。只是蜘蛛纸牌的列数多了很多，又分为四种花色，因此复杂不少。但将连续的同花色牌合并为一张之后，基本的对策是类似的，即：只能小压大，利用其他列在两列之间移动。</p>
+<p>2.流动性：目前不容易给出一个很严谨的流动性的计算标准，但参照上一条，对比汉诺塔，在我看来大致可以这么算：<br>
+a.一列以内，断点数量与流动性成反比。但如果中间有k时，k以下的牌的流动性近似清零；有A时，近似减半。因为k无法与其他有牌的列流动，A无法让其他列移动上来。<br>
+b.各列之间的流动性很难组合计算。但有空列时，整付牌局流动性几乎是按照指数增长。一个空列是平方的话，两个空列大致可以算是四次方。所以，一定要优先留出空列。如果在倒数第三轮第二轮能够有2个以上空列，那么几乎肯定可以解出来。<br>
+c.在两列之间移动时，除了直接移过去、利用空列中转移过去，还可以利用有牌的列作为中转移过去。但条件是用作中转的列要能够接上需要移动的牌。所以，拆开已经组成的顺子来“移花接木”是一种非常重要的方法，因为这样可以提供额外的中转选择。</p>
+<p>3.四个花色时，一般情况下，在倒数第二轮之前很难解出大龙。但随着发牌越来越多，牌的移动也会越来越难。到了倒数第三轮第二轮时，除了往下翻牌，还可以尽量把翻出来的拆开来，拼凑成为大龙，这样可以大幅度减少牌的数量，也能增加流动性。</p>
+<p>蜘蛛纸牌攻略：</p>
+<p>1️⃣保持流动性。其实这条不能算技巧，应该算是四色蜘蛛的总纲之一。四色为什么比单色双色难那么多？就是因为花色多，堆一起后很难动，流动性很差。所以保持流动性几乎是最重要的技巧了。保持流动性包括很多方面:优先清空一列，这是其中一项。有可能解出一条大龙时，解出来后通常会增加流动性。但是有少数情况反而影响大局，这个情况下面再谈。即将下一轮发牌时，尽可能保持&quot;准空列&quot;的简单，这样可以在发牌后迅速恢复流动性。<br>
+<a href="https://imgchr.com/i/UkSS3T"><img src="https://s1.ax1x.com/2020/07/07/UkSS3T.th.jpg" alt="UkSS3T.th.jpg" loading="lazy"></a></p>
+<p>例如上图。尽量在发牌前把最右四张和左边的上面三张交换，很可能对后面局面起到关键作用。即将下一轮发牌前，对现有列做最大限度的整理，这样也能使整个局面流动性更好。&quot;尽可能多翻牌&quot;，一般情况是正确的。但前提是不能影响流动性。如果开局不久就翻出一个大K，那么多半还不如翻另外一个地方或者干脆发新牌。再说一遍:保持流动性是个总纲，四色几乎全部要到最后两轮才能清出一色，在此之前，几乎所有动作的思路都要围绕流动性做文章。</p>
+<p>2️⃣ctrl-Z有用，但不要太过依赖。因为撤销也是要扣分的，胜率高了后慢慢就应该追求高分。我的建议是初期，或者特别难的局可以多用撤销，作为一种练习。但到了一定阶段就要练习对现有局面的掌控能力和预测能力，不能太多依赖撤销功能。玩多了后可以发现，很多得高分的局往往是开始看似很难，撤销也用处不大的局。至于靠撤销来记住背面的牌，我是很少这么用。哦，对了，开局时发现很不顺，按F2重新开局不会有失败记录。虽然开始看着不爽的牌，也很可能玩出来，但胜率会比较低一点，关键是玩着很不爽。</p>
+<p>3️⃣把乱牌尽量堆到一列，这个不是绝对。一列堆得太高的时候，到后期影响会很大。我的做法是尽量均匀的堆在3-4个显然无法翻到底的列上，尽量保持其他列的简单和流动性。</p>
+<p>4️⃣善用逆向思维，移花接木。<br>
+通常情况，都会让同花色的顺子尽量长。但很多（注意是很多时候，敲黑板）时候，为了移动目标列下面的牌，可以把其他列已经形成的顺子拆开，移植过来，达到目标。举例:<br>
+<a href="https://imgchr.com/i/UFzzCV"><img src="https://s1.ax1x.com/2020/07/07/UFzzCV.th.jpg" alt="UFzzCV.th.jpg" loading="lazy"></a></p>
+<p>这副牌，我的做法是把第三列拆开接到第五列黑桃7上。</p>
+<figure data-type="image" tabindex="3"><a href="https://imgchr.com/i/UFzv40"><img src="https://s1.ax1x.com/2020/07/07/UFzv40.th.jpg" alt="UFzv40.th.jpg" loading="lazy"></a></figure>
+<p>随后将第五列的红桃8在第一列帮助下移动到第七列，在第七列形成一个红桃1-J的顺子。</p>
+<figure data-type="image" tabindex="4"><a href="https://imgchr.com/i/UFzjNq"><img src="https://s1.ax1x.com/2020/07/07/UFzjNq.th.jpg" alt="UFzjNq.th.jpg" loading="lazy"></a></figure>
+<p>然后，再次移花接木，第九列方块6（以及其下的草花）在第四列的移植后拿走，露出红桃KQJ，这样就可以清出一条红桃大龙了。（这个时候是有机会清理第二列或者第九列的红桃K，但我们必须选择第九列。因为清走第九列能够多出一个空列，多一个空列能让流动性指数型增加。反之第二列下面是啥还很难得知）继续清理，灵活运用移花接木，在不翻一张牌，也已经没牌可发的情况下，几乎全部清理完毕。</p>
+<figure data-type="image" tabindex="5"><a href="https://imgchr.com/i/UFzXEn"><img src="https://s1.ax1x.com/2020/07/07/UFzXEn.th.jpg" alt="UFzXEn.th.jpg" loading="lazy"></a></figure>
+<p>至此，这局必胜无疑了。<br>
+前面提到有可能解出一条大龙时，解出来后通常会增加流动性。但有少数情况反而会影响大局。这种情况就是这个大龙有可能用作移花接木时，解出大龙反而不利。</p>
+<p>5️⃣注意移牌的次序。很多牌，你按照一个次序就能移过去，但按照最直观最直接的次序就动不了。（回头玩到这样的例子再截图出来）这和围棋着子次序一样，次序不对就是坏棋。</p>
+<p>6️⃣系统提示非常弱智，我从来不用。</p>
+<p>7️⃣有节制。不是说翻牌就肯定好，也不是接了同花就肯定好，看多了底牌就肯定好。有时候不翻牌比翻牌好，不接同花比接了好。看底牌然后撤销的代价就是扣分。翻到什么时候合适，判断标准还是眼前和长期流动性，当然还有对牌面和大势的感觉和掌握。</p>
+<p>提示：如有不足请多包涵</p>
+<p>其他经典游戏攻略，随时想到再更新~~~</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【学习】Gridea+Github部署个人博客]]></title>
@@ -37,6 +174,80 @@
         <link href="http://imengyi.ink/zbWUCelAN/">
         </link>
         <updated>2020-07-05T15:34:50.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="引言">引言</h2>
+<p>主要是因为一些官方博客（知乎、博客园等），你发表一些自己的看法或见解是要先审核的，而机器审核会使得我们原本并不违规的内容被禁，导致自己的博客账号被封，所写的内容也就灰飞烟灭啦。</p>
+<p>我自己是从零开始部署的，其实也就三-五天就好啦，主要是一些细节问题，我这里将会讲解我所遇到的一些问题，有的内容是大神写的比较好的，我就直接放链接啦~~~💖💖💖</p>
+<h3 id="目录">目录</h3>
+<ul>
+<li>
+<p>1、Gridea的安装</p>
+</li>
+<li>
+<p>2、Gridea与Github的远程连接</p>
+</li>
+<li>
+<p>3、Gridea的主题</p>
+</li>
+<li>
+<p>4、绑定自己的域名</p>
+</li>
+<li>
+<p>5、主题优化</p>
+</li>
+<li>
+<p>6、问题汇总</p>
+</li>
+</ul>
+<h3 id="1-gridea的安装">1、Gridea的安装</h3>
+<p>我们进入<a href="https://gridea.dev">Gridea</a>的官方网站下载安装</p>
+<h3 id="2-gridea与github的远程连接">2、Gridea与Github的远程连接</h3>
+<p>🔵<strong>创建 GitHub 账号，并创建一个仓库 Token</strong>。点击<a href="https://github.com">GitHub</a>，进行注册。登录 GitHub 之后，点击<a href="https://github.com/settings/tokens/new">这里</a>创建一个 Token，<strong>勾选上 repo 的相关权限即可</strong>。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。</p>
+<figure data-type="image" tabindex="1"><img src="http://imengyi.ink/post-images/1575874237236.png" alt="" loading="lazy"></figure>
+<p>🔵🔵<strong>创建仓库，存放构建后的网站文件</strong>。创建一个公开仓库，名为用户名.github.io。（将用户名替换为你的 GitHub 用户名）</p>
+<figure data-type="image" tabindex="2"><img src="http://imengyi.ink/post-images/1575874957071.png" alt="" loading="lazy"></figure>
+<p>🔵🔵🔵<strong>进入 Gridea 进行远程设置</strong>。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。</p>
+<figure data-type="image" tabindex="3"><img src="http://imengyi.ink/post-images/1575875241904.png" alt="" loading="lazy"></figure>
+<p>🔵🔵🔵🔵<strong>同步</strong>。点击 Gridea 中的 同步按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你在第 3 步所填写的域名。</p>
+<p>以上，就完成一个静态博客的搭建了，期待你的每一次落笔成文。</p>
+<p>📢📢📢附：<a href="https://www.bilibili.com/video/av54011033">录制的Gridea视频</a></p>
+<h3 id="3-gridea的主题">3、Gridea的主题</h3>
+<p>附上<a href="https://gridea.dev/themes">Gridea的主题地址</a></p>
+<p>我比较喜欢next主题：<a href="http://imengyi.xyz">预览</a></p>
+<h3 id="4-绑定自己的域名">4、绑定自己的域名</h3>
+<p>🔴域名解析</p>
+<p>添加两个解析地址</p>
+<table>
+<thead>
+<tr>
+<th>解析地址</th>
+<th>子域名</th>
+<th>指向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>WWW</td>
+<td>185.199.110.153</td>
+</tr>
+<tr>
+<td>cname</td>
+<td></td>
+<td>62e44db293e93d2d.ncname.com</td>
+</tr>
+</tbody>
+</table>
+<p>💥💥💥注意：</p>
+<p>子域名：<br>
+第一个是电脑桌面<strong>win+r</strong>,输入<strong>cmd</strong>,<strong>ping imengyi.github.io</strong>(这里输入自己的域名进行ping),得到[185.199.110.153]解析这个地址。<br>
+第二个是<a href="https://console.nodecache.com/login">nodecache</a>添加加速的网站，<strong>cname</strong>到他给你的地址。</p>
+<h3 id="5-主题优化">5、主题优化</h3>
+<p>next主题部署：【<a href="https://yeming.site/post/1JA_OJlig">next</a>】</p>
+<p>使用命令克隆项目，这个非常的慢，【<a href="https://www.zhihu.com/people/imengyi">加速下载方法</a>】</p>
+<h3 id="6-问题汇总">6、问题汇总</h3>
+<p>【<a href="https://blog.csdn.net/weixin_42429718/article/details/104378207">大神的问题汇总</a>】这个大神帮助我很多的问题。</p>
+<p><strong>有什么问题可以评论区讨论，博主看到会及时回复的</strong></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【考研】进入大三啦，考研初准备]]></title>
@@ -44,6 +255,22 @@
         <link href="http://imengyi.ink/4uoA75UFN/">
         </link>
         <updated>2020-07-05T12:27:24.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="引言">引言</h3>
+<p>2019-2020这一年由于疫情，在家只能上网课，学习的效率也是很不理想（原因：大家都懂，一会就开小差了）。到期末考试，我们学校决定考试只能线下考，所以我就只能办个缓考证明，这就比较尴尬啦（等开学基本上也忘得差不多啦）。现在面临的处境是：</p>
+<ul>
+<li>1、大二期末考试。</li>
+<li>2、第二学历考试推迟（下次要多考二门）</li>
+<li>3、进入大三啦，考研的事情要着手去准备啦。</li>
+</ul>
+<h3 id="1-大二期末考试">1、大二期末考试</h3>
+<p>这个其实就是不断地去刷题，没有题库的就是去看书，也没什么捷径可走</p>
+<h3 id="2-第二学历考试">2、第二学历考试</h3>
+<p>现在在家，就刷课，做题。</p>
+<h3 id="3-考研初准备">3、考研初准备</h3>
+<p>现在已经会去买一些专业课的书去看看，还是多见见题吧，题海战术。</p>
+<p>遇到的相关问题，我会及时发上来的，搞一个问题专题（专业课问题）和考研的相关资讯。</p>
+<p>有志向相同的同学们可以评论区留言讨论！！！</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【人文】聊一聊电影]]></title>
@@ -51,6 +278,74 @@
         <link href="http://imengyi.ink/dWJnu47Zc/">
         </link>
         <updated>2020-07-04T14:26:32.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>宫崎骏的动画电影可谓是暖心治愈系的代表，今天，博主就推荐十部必看的宫崎骏动画电影，你看过几部了？<br>
+（心急的小伙伴可以拉到最后查看获取办法~）</p>
+</blockquote>
+<h3 id="1-千与千寻">1. 千与千寻</h3>
+<p><img src="https://pic1.zhimg.com/80/v2-4dfe7c4e44cd60cc07c5b52a8268a96c_720w.png" alt="" loading="lazy"><br>
+千与千寻曾获奥斯卡最佳动画长片，真的是一部值得反复观看的片子。</p>
+<p>它讲述的是一个懵懂、无助的小女孩千寻，在阴差阳错中踏入了神怪鬼灵的幻想世界，并遇到了小白龙，他们共同经历了奇异的冒险，千寻最终也成长为一个坚强、勇敢的女孩子。<br>
+<img src="https://pic1.zhimg.com/80/v2-e1348567f64af0c2741c56e7c5ad7b2c_720w.jpg" alt="" loading="lazy"><br>
+千寻与小白龙之间的感情，也是本片的一大看点。但有许多人说，这不是早恋嘛，我觉得豆瓣上一位叫“为止”的豆友说的很好：<br>
+<img src="https://pic4.zhimg.com/80/v2-c10d26a39d1bd8748b1aec8aa485293f_720w.png" alt="" loading="lazy"><br>
+小孩子之间也是会产生喜欢的感觉，那是成人都不会再拥有的纯真的感觉了吧。</p>
+<h3 id="2-龙猫">2. 龙猫</h3>
+<p><img src="https://pic2.zhimg.com/80/v2-635af4dfe453a316d374c9d0f6511629_720w.png" alt="" loading="lazy"><br>
+姐妹两个因为妈妈生病，被爸爸带去乡下居住，她们在乡下遇到了许多神秘小精灵，还有神奇的动物——龙猫，龙猫还能召唤出猫巴士，整部电影充满了奇特的想象力，散发着暖暖的姐妹情谊，小精灵们的可爱表现更能萌化你的心!<br>
+<img src="https://pic3.zhimg.com/80/v2-d4da98a4f7cf95b71150c73d67bc3af2_720w.jpg" alt="" loading="lazy"><br>
+氮素，据说龙猫的背后是一个悲惨的故事。妹妹失踪被抛尸林中，姐姐去寻找也失踪了，难道这才是动画的背景(不敢相信)。。。</p>
+<h3 id="3-天空之城">3. 天空之城</h3>
+<p><img src="https://pic2.zhimg.com/80/v2-c57760bee385ac934baec278628204f1_720w.png" alt="" loading="lazy"><br>
+这部片子讲述的是男女主共同寻找传说中蕴藏巨大财富的飞行岛的故事，涵盖了最美最强的剧情，温情，幽默，动作，爱情。。。看的时候哭了好几次。<br>
+<img src="https://pic1.zhimg.com/80/v2-f4b8c3638f1f44f527db81123933eac0_720w.jpg" alt="" loading="lazy"><br>
+对天空之城印象很深的还有它的配乐，久石让的大作真的是太震撼了。</p>
+<h3 id="4-哈尔的移动城堡">4. 哈尔的移动城堡</h3>
+<p><img src="https://pic2.zhimg.com/80/v2-c621ce67e7479c5bc6422a11b9dc98f5_720w.png" alt="" loading="lazy"><br>
+整部电影真的都非常温情啊啊啊~</p>
+<p>开头就是女主苏菲被巫婆变成了老太婆，不过女主并不伤心，因为她本来就自卑，不敢主动接近自己喜欢的人哈尔，但是变成老太婆之后，她就觉得，反正我已经这样了，对哈尔做任何事都不会难为情，所以就走进了哈尔的移动城堡。而哈尔在见到苏菲老婆婆的那一刻，就知道她是他在等待的爱人，两人在相处中渐渐明白了对方给的心意......<br>
+<img src="https://pic3.zhimg.com/80/v2-f2208b20a92782386c41d35fd2ff634a_720w.jpg" alt="" loading="lazy"><br>
+<img src="https://pic4.zhimg.com/80/v2-4cbde581c791bf6b3435ffdc0b912957_720w.jpg" alt="" loading="lazy"><br>
+本片有一个特别看点就是，男主特别帅，还有点孩子气，动漫小鲜肉一枚!<br>
+<img src="https://pic4.zhimg.com/80/v2-c47a601908f8c94fb77940772a92d1c7_720w.jpg" alt="" loading="lazy"></p>
+<h3 id="5-幽灵公主">5. 幽灵公主</h3>
+<p><img src="https://pic1.zhimg.com/80/v2-41083af9863cf99f9fc4edeee5e181f0_720w.png" alt="" loading="lazy"><br>
+本片探讨“人与自然的关系”，有着深度的人文思考，《幽灵公主》在日本的票房高达193亿日元，共有1420万人次观看，在当时（1997年）是日本史上票房最高的电影。只能用震撼来形容。</p>
+<h3 id="6-魔女宅急便">6. 魔女宅急便</h3>
+<p><img src="https://pic3.zhimg.com/80/v2-8a8544847202bc455c8763401659dcc6_720w.png" alt="" loading="lazy"><br>
+非常可爱的一部片子，讲述魔法少女琪琪带着宠物黑猫吉吉踏上了一年修行之旅的故事。对女孩子有着很强的激励作用，女生们都要看一下哦！</p>
+<h3 id="7-悬崖上的金鱼姬">7. 悬崖上的金鱼姬</h3>
+<p><img src="https://pic1.zhimg.com/80/v2-27f324c5e704b587af538c9398806ac0_720w.png" alt="" loading="lazy"><br>
+金鱼姬是一条活泼好动的小鱼，一次偶然的机会，它在涨潮时被冲进了玻璃瓶中无法脱身。此时，刚好来海边度假的男孩宗介路过，帮它解困，从此人鱼相识。一次意外的海啸中，宗介撞伤了身体，金鱼姬沾染到了人类的血，飘回了大海之中。但喜欢上宗介的波妞，开始想要变成人类。<br>
+<img src="https://pic4.zhimg.com/80/v2-2667cf05b41dec1eaacea369df249497_720w.jpg" alt="" loading="lazy"><br>
+据说，宗介的原型是宫崎骏的大儿子宫崎吾朗，但他们之间关系一直不好，《悬崖上的金鱼公主》也是他修补父子关系之作，这也为本片提供了很大看点。</p>
+<h3 id="8-侧耳倾听">8. 侧耳倾听</h3>
+<p><img src="https://pic3.zhimg.com/80/v2-fe70059e66aa2203bee86aff799863da_720w.png" alt="" loading="lazy"><br>
+正在读初三的月岛雯是一个喜欢看书的女孩，她每次都能在借书卡上看到一个叫天泽圣司名字，因此她对这个人充满了好奇。 雯与圣司后来相识，并互相勉励互相学习，为各自的理想而奋斗，谱写了一段少男少女间清纯真挚感人的恋爱故事。</p>
+<p>电影几乎集结了所有少女时代的美好回忆，如果想看青涩的恋爱，想重温一下自己的少女心，那就千万不要错过这一部！</p>
+<h3 id="9-风之谷">9． 风之谷</h3>
+<p><img src="https://pic1.zhimg.com/80/v2-9fc9b804746050dec788a8ce4ab399a4_720w.png" alt="" loading="lazy"><br>
+工业文明的高度发展，却最终带来灾难，一场为期7天的虫族毁灭战争摧毁了人类文明。一千年后，工业文明遗留下来的症结仍在困扰这个星球。带有强烈毒性的植物组成了令人望而却步的“腐海”森林，随着时间的推移，腐海有条不紊地向四周蔓延，蚕食周边世界。在一片腐海森林的旁边，居住着一群御风而行的人类。女主角娜乌茜卡和族人依靠海风的力量抵御着有毒孢子的侵蚀，过着平静祥和的生活。</p>
+<p>直到某一天，战火烧到了这里。西方强国特洛梅意欲重新建立人类霸权，他们计划统一周边诸国，然后向虫族发起总攻。另一方面，一千年前曾主导摧毁人类的上古怪兽“猛怪”重现人间。毁灭战争一触即发，人类的命运将会如何……</p>
+<p>光听介绍是不是都已经燃起来啦！</p>
+<h3 id="10-借东西的小人阿莉埃蒂">10. 借东西的小人阿莉埃蒂</h3>
+<p><img src="https://pic4.zhimg.com/80/v2-2b1d57639c106ec49ea2d590aedea27f_720w.png" alt="" loading="lazy"><br>
+虽然患有心脏方面的疾病，但是少年翔（神木隆之介配音）的父母依然对他疏于呵护。为了准备即将到来的手术，翔来到了位于偏远乡间的姨婆（竹下景子配音）家静养。</p>
+<p>姨婆家位于一片幽静的丛林中，这是一幢有着上百年历史的欧式别墅。这里除了生活着姨婆和女佣阿春（树木希林配音）外，还有一个奇特的三口之家，“借东西一族”——小人阿莉埃蒂（志田未来配音）和她的爸爸（三浦友和配音）妈妈（大竹忍配音），他们生活在别墅的地板下，只有几公分高，过着不为人类察觉的生活。遇到所需的日常用品时，便会在夜深人静之时偷偷潜入厨房借出来。翔无疑中瞥见阿莉埃蒂的身影，他有心接近这些传说中的小人，却不知不觉打扰了他们的生活……</p>
+<p>在这部片子中，男女主的体形差异实在太大了......看看女主和男主的——手↓<br>
+<img src="https://pic3.zhimg.com/80/v2-36d4470878a0fb446d6fb65c5bfc5f66_720w.jpg" alt="" loading="lazy"><br>
+女主的房间被她布置的好漂亮，真是个美好的女孩子。<br>
+<img src="https://pic1.zhimg.com/80/v2-6a50b060dec578f05ca116c8f22ad7e8_720w.jpg" alt="" loading="lazy"><br>
+一部好的作品必须能经受的了时间的沉淀。</p>
+<p>在这十部作品中，有好几部都是20世纪80年代末的，但是现在看起来仍然非常受感动，这是因为宫崎骏电影的主题都是有深度的，对爱情、亲情、友情、梦想、勇气的种种刻画细致入微，无论何时，都能让观影者受到深深的感动，并对生活产生新的认识，也许，这就是伟大作品给我们带来的滋养吧！</p>
+<h3 id="彩蛋">💥彩蛋💥：</h3>
+<p>下载<a href="https://feixue.lanzous.com/i2Onqde4aqh">南瓜影视</a><br>
+所有影片都可以观看，此版本登陆即为会员🔥。<br>
+如果链接失效或无法观看<br>
+进入<a href="http://imengyi.ink/post/hei-ke-ji-mu-lu/">黑科技目录</a>查找更多影视</p>
+<p><strong>文章来源</strong><br>
+<a href="https://zhuanlan.zhihu.com/p/23428313">知乎</a></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【人文】人总要相信点什么]]></title>
@@ -58,6 +353,66 @@
         <link href="http://imengyi.ink/V9c2aNH3Q/">
         </link>
         <updated>2020-07-04T14:23:33.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="阅读是一件最重要的小事">阅读是一件最重要的小事</h2>
+<blockquote>
+<p>人生在世·总觉得要相信点什么，有人选择相信神、佛、道教等，还有人选择相信俗语、家风、个人信念，无论你为那种都是已经选择相信某个事物，而这些信念的养成少不了文化孕养、个人修行。今天我们就一同走进书的修炼场、体悟百变人生，笑看风情事物。</p>
+</blockquote>
+<ul>
+<li>1、《冷场》<br>
+<img src="https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=4112637310,794853427&amp;fm=179&amp;app=42&amp;f=JPEG?w=121&amp;h=161" alt="" loading="lazy"></li>
+</ul>
+<p>时间真的能抚平一切吗？即使心里的伤愈合了，但伤疤还在，丑陋又显眼。也许人生最大的课题，就是学会如何和伤痛握手言和。</p>
+<ul>
+<li>2、《复原力》<br>
+<img src="https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3314791630,960216789&amp;fm=173&amp;app=49&amp;f=JPEG?w=312&amp;h=208&amp;s=192071330F036A5B126404D4030080A2" alt="" loading="lazy"></li>
+</ul>
+<p>万物皆有裂痕，那是光照进来的地方。每个人也许都有不同程度的伤痛，要学会正视、接纳、关怀它。也正因为有脆弱，快乐才会显得如此珍贵。</p>
+<ul>
+<li>3、《人间值得》</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=855045193,4171448839&amp;fm=74&amp;app=80&amp;f=JPEG&amp;size=f121,121?sec=1880279984&amp;t=62575d582a763a91664ab914aea74f0f" alt="" loading="lazy"></figure>
+<p>人生的智慧不在于事事都要坚持，而是学会凡事都不要用力过猛，保持自己的“顿感”和对不顺的接受程度。太过用力反而会容易产生落差感，把握好自己的生活节奏，活得舒服才最重要。</p>
+<ul>
+<li>4、《云边有个小卖部》</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1330166881,2857391655&amp;fm=179&amp;app=42&amp;f=JPEG?w=121&amp;h=161" alt="" loading="lazy"></figure>
+<p>有些人刻苦铭心，没几年会遗忘。有些人不论生死，都陪在身旁。其实真正能让爱消散的从来不是分离，而是遗忘。</p>
+<ul>
+<li>5、《你并非一无所有》</li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=141797937,222231086&amp;fm=85&amp;app=92&amp;f=JPEG?w=121&amp;h=75&amp;s=F29C78235D977BE9024119C90100D0E2" alt="" loading="lazy"></figure>
+<p>爱情本来就是一场勇敢者的游戏，陷入只需要一秒，走出来却要很久。</p>
+<ul>
+<li>6、《热爱可抵岁月漫长》</li>
+</ul>
+<figure data-type="image" tabindex="4"><img src="https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=1244913137,3119411289&amp;fm=74&amp;app=80&amp;f=JPEG&amp;size=f121,140?sec=1880279984&amp;t=e410e0691a6e6198239c9ca5af282d45" alt="" loading="lazy"></figure>
+<p>我们总是对别人体贴，对自己苛刻，殊不知，我们自己才是那个最需要被自己心疼的人啊。</p>
+<ul>
+<li>7、《我生命中的那些日子》</li>
+</ul>
+<figure data-type="image" tabindex="5"><img src="https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2527333972,1859712747&amp;fm=173&amp;app=49&amp;f=JPEG?w=312&amp;h=208&amp;s=F3311BC454F4479E9099B9D0030090B0" alt="" loading="lazy"></figure>
+<p>梦想不必声张，它自会生长。</p>
+<ul>
+<li>8、《八百万种S法》</li>
+</ul>
+<figure data-type="image" tabindex="6"><img src="https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3142061809,1715237469&amp;fm=173&amp;app=49&amp;f=JPEG?w=312&amp;h=208&amp;s=75C443AE8E1E06DC4211E53703006053" alt="" loading="lazy"></figure>
+<p>人们呆在一起，但心不在一起，各自看着不同的方向。我们看似和旁人一起笑一起闹，可是内心的波涛汹涌，却无人能懂，那是生命中最钻心的孤独。<br>
+原来真正的孤独，是纵使身边人山人海，却不能开口</p>
+<ul>
+<li>9、《当众孤独》</li>
+</ul>
+<figure data-type="image" tabindex="7"><img src="https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=1593964805,3649480634&amp;fm=74&amp;app=80&amp;f=JPEG&amp;size=f121,140?sec=1880279984&amp;t=39163c982223af79d8ca4ab6dda6becd" alt="" loading="lazy"></figure>
+<p>关于财务自由有一个界定，叫作“去你的基金”。有这笔钱傍身，当你老板让你不爽，或者逼迫你做伤及你底线的事情时，你可以随时摔门而去。<br>
+我们之所以努力赚钱，不仅仅是为了实现财务自由，更主要的是为了拥有选择的权力。<br>
+如今的你，实现财务自由了吗？</p>
+<ul>
+<li>10、《心》</li>
+</ul>
+<figure data-type="image" tabindex="8"><img src="https://dss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=3835416505,4064163070&amp;fm=74&amp;app=80&amp;f=JPEG&amp;size=f121,121?sec=1880279984&amp;t=46d9e3d6835e452c2825a6c11c0cb27d" alt="" loading="lazy"></figure>
+<p>努力提高心性，才是人生之目的所在。拥有这种人生价值观的人，才能拥有幸福的人生。</p>
+<h3 id="看书软件分享">看书软件分享</h3>
+<p>【藏书馆】、【笔趣阁】（各大应用商店均可下载）</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【学习】黑科技目录(每周一更)]]></title>
@@ -65,6 +420,493 @@
         <link href="http://imengyi.ink/HdS_1rQOF/">
         </link>
         <updated>2020-07-04T10:37:08.000Z</updated>
+        <content type="html"><![CDATA[<p>💥注意💥：该目录软件大部分均为破解版，所以务必记住以下几点：</p>
+<ul>
+<li>1、如有相同软件，请先卸载原先的软件再进行安装。</li>
+<li>2、登录时请选择手机号登陆或邮箱登录，未注册的用户要先注册再登陆。</li>
+<li>3、请勿更新，破解版仅对当前版本有效，更新后则无会员体验。</li>
+<li>4、链接失效，请联系博主邮箱：lh103995@dingtalk.com</li>
+<li>5、有部分把链接用的是超新星云盘，账号同学们应该都有的。</li>
+<li>🎻个人自制i萌依APP下载地址：<s><a href="https://wws.lanzous.com/iRpHIe6sqod">i萌依.apk 1.4</a></s> <a href="https://wws.lanzous.com/idTUDe7kqah">i萌依.apk 1.5</a>【集合全网权威破解软件】</li>
+</ul>
+<h3 id="手机端app目录安卓区">手机端APP目录【安卓区】</h3>
+<table>
+<thead>
+<tr>
+<th><strong>影视下载</strong>🐔</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://feixue.lanzous.com/ifbpwdgsq1e">南瓜影视</a>【秒播】</td>
+<td><a href="https://feixue.lanzous.com/ibh0Gebx33e">卧龙影视去广告版</a></td>
+<td><a href="https://feixue.lanzous.com/iwFkieb1m8b">番茄影视去广告版</a></td>
+</tr>
+<tr>
+<td><a href="http://www.runker.online">行客影视</a>【网页】</td>
+<td><a href="https://feixue.lanzous.com/i2Onqde4aqh">影视观看</a>【安卓&amp;iOS】</td>
+<td><a href="https://lanzous.com/i72sm2b">tita搜索</a>【多源】</td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i72slad">资源猫</a></td>
+<td><a href="https://feixue.lanzous.com/iwuuYd96iab">大鱼影视去广告版</a></td>
+<td><a href="https://lanzous.com/i9aq4la">大象视频</a>【无广告】</td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i9hh20f">荐片影视</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>音乐下载</strong>🐌</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/iagc5qj">歌词适配</a>【安卓】</td>
+<td><a href="https://lanzous.com/i4hmlxc">酷我音乐</a>【安卓】</td>
+<td><a href="https://pan.baidu.com/share/init?surl=mhYIBPm">网易云音乐</a>（2ce2）</td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i8lr98d">魔音</a></td>
+<td><a href="https://feixue.lanzous.com/ic0hrne">搜云音乐</a></td>
+<td><a href="http://music.runker.net">VIP会员音乐免费下载网</a>【网页】</td>
+</tr>
+<tr>
+<td><strong>小说阅读</strong>🐬</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/iltIzdwdizg">七猫小说</a></td>
+<td><a href="https://lanzous.com/i6kf56h">石头阅读</a></td>
+<td><a href="https://lanzous.com/ia3n2sb">厚墨</a>【可导入<a href="http://ku.mumuceo.com/yuedu/index/index.html">书源</a>】</td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i9zprbc">皓阅</a>【可导入书源】</td>
+<td><a href="https://gedoor.github.io/MyBookshelf/bookSource.json">网络书源地址</a></td>
+<td><a href="https://lanzous.com/i9zpopi">本地书源</a></td>
+</tr>
+<tr>
+<td><strong>游戏加速器</strong>🦍</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i53w91a">迅游加速器</a>【安卓】</td>
+<td><a href="https://www.biubiu001.com">BiuBiu加速器</a>【安卓&amp;ISO】</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>百度网盘破限速</strong>🐇</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://feixue.lanzous.com/ic0w0rg">百度网盘联运版</a>【安卓】</td>
+<td>~稳定在几百k-1m</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>英语学习</strong>🏅</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://pan-yz.chaoxing.com/share/info/9dc02a2d2be6e6e2">可可英语</a></td>
+<td><a href="http://pan-yz.chaoxing.com/share/info/31e51e8fd7d1bb00">傻瓜英语</a></td>
+<td><a href="http://pan-yz.chaoxing.com/share/info/9e5301f82d3984c4">墨墨背单词</a></td>
+</tr>
+<tr>
+<td><a href="http://pan-yz.chaoxing.com/share/info/a5ca855390e9f6ba">爽哥英语</a></td>
+<td><a href="http://pan-yz.chaoxing.com/share/info/53a549fc3b90045b">网易云有道词典</a></td>
+<td><a href="http://pan-yz.chaoxing.com/share/info/fa83582cfe9f256a">金山词霸</a></td>
+</tr>
+<tr>
+<td><strong>考证软件/题库</strong>🐤</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.51xuexiaoyi.com/download">学小易</a>【大学必备】</td>
+<td><a href="https://lanzous.com/ia9lq0b">考试资料网</a></td>
+<td><a href="http://pan-yz.chaoxing.com/share/info/acdce54a5b7beaf3">驾考宝典</a></td>
+</tr>
+<tr>
+<td><strong>办公软件</strong>🐮</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/i6hhedwdqnc">WPS国际版</a></td>
+<td><a href="https://wws.lanzous.com/iLIw2dxy4fe">WPS office安卓版</a></td>
+<td>激活密匙：7LR67-WTXPA-KLUHV-GEK2E-QW4CK</td>
+</tr>
+<tr>
+<td><a href="http://pan-yz.chaoxing.com/share/info/ab0866b240642eee">讯飞输入法</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>图片处理工具</strong>🐼</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://pan-yz.chaoxing.com/share/info/04bf2b4e44f762c0">泼辣修图</a></td>
+<td><a href="https://wws.lanzous.com/i4BRRdwdjli">抠图软件</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="手机端app目录ios区">手机端APP目录【iOS区】</h3>
+<table>
+<thead>
+<tr>
+<th><strong>影视下载</strong>🐔</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://rrd.me/fypcz">天堂影视大全</a></td>
+<td>注意：天堂影视大全仅有iOS版！打开软件后如果页面不对，退出重新进入即可！</td>
+</tr>
+<tr>
+<td><a href="https://www.wl88.app">卧龙影视</a></td>
+<td><a href="http://985.so/jP35">蝴蝶影视</a></td>
+</tr>
+<tr>
+<td><a href="http://tv.fish">大鱼影视官网</a></td>
+<td><a href="https://ymdy.app">玉米影视</a></td>
+</tr>
+<tr>
+<td><a href="http://jins365.com">今日影视</a></td>
+<td><a href="http://uee.me/caAK9">小样搜搜</a></td>
+</tr>
+<tr>
+<td><strong>小说阅读</strong>🐬</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://apps.apple.com/cn/app/wapatv/id1137819437">爱阅书香</a></td>
+<td><a href="http://ku.mumuceo.com/yuedu/index/index.html">书源</a></td>
+</tr>
+<tr>
+<td><strong>音乐下载</strong>🐌</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://apps.apple.com/cn/app/tunepro-music-%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/id1248262508">Turn Pro</a></td>
+<td><a href="https://apps.apple.com/cn/app/id921765888">adiomack</a></td>
+</tr>
+<tr>
+<td><strong>办公软件</strong>🐮</td>
+<td></td>
+</tr>
+<tr>
+<td>WPS</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>iOS版本的小伙伴请直接在苹果商店下载WPS，安装后注册一个账号，然后扫描下图的二维码进行激活！<br>
+<a href="https://imgchr.com/i/UFjs1g"><img src="https://s1.ax1x.com/2020/07/07/UFjs1g.th.jpg" alt="UFjs1g.th.jpg" loading="lazy"></a></p>
+<h3 id="pc端软件目录">PC端软件目录</h3>
+<table>
+<thead>
+<tr>
+<th><strong>影视下载</strong>🐔</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://feixue.lanzous.com/i75Rjdvn1yh">293影视永久免费版</a></td>
+<td><a href="http://www.293so.com/">293影视官方版</a></td>
+<td><a href="https://www.lanzous.com/i8wuahc">柠檬影视</a></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i9hgz1i">荐片影视</a></td>
+<td><a href="https://lanzous.com/i8ln4hi">58影视盒子</a>【杀毒关闭】</td>
+<td><a href="https://lanzous.com/i9m3y9c">365视频</a></td>
+</tr>
+<tr>
+<td><strong>网课搜题助手</strong>🐧</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/iPj6odwdhza">网课查题</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>音乐下载</strong>🐌</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i6kf56h">酷我音乐</a>【电脑】</td>
+<td><a href="https://pan.baidu.com/share/init?surl=o9wJt2a">酷狗音乐</a>  （rd91）</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>游戏加速器</strong>🦍</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.liuxing.com">流星加速器</a>（电脑）</td>
+<td><a href="https://www.lpjsq.cn">蓝袍加速器</a>（电脑）</td>
+<td><a href="https://www.qimiao.com">奇妙网游加速器</a>（电脑）</td>
+</tr>
+<tr>
+<td><a href="https://www.golink.com">Golink加速器</a>（电脑）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>百度网盘破限速</strong>🐇</td>
+<td>实测</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://yixun.writeas.com">亿寻官网</a>【电脑】</td>
+<td>~跑满宽带10m(实测)</td>
+<td><a href="https://mp.weixin.qq.com/s/xdfgA7JG1d1d2BzBQmqkzg">使用教程</a></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i99fu7a">万能联播</a>【电脑】</td>
+<td>~稳定在2m（与自己的宽带、网速也有关）</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>抢票神器</strong>🦆</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i9wbbsb">Bypass</a>【六年稳定运作】</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>PC必备</strong>⛄️</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/iYs6Pdy8i1e">搜狗输入法去广告版</a>（i76j）</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="超实用工具">超实用工具🔥🔥🔥</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Windows系统安装与激活</strong>🐒</th>
+<th>百度网盘链接</th>
+<th>提取码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Win 10安装<a href="https://mp.weixin.qq.com/s/Gg4l1lVUuw3wngQ4NsaeKg">激活·教程</a></td>
+<td><a href="https://pan.baidu.com/s/1Jf7PYJu7ndl9LjAsIDSYkg">Win 10安装</a></td>
+<td>4rzv</td>
+</tr>
+<tr>
+<td>Win 7安装<a href="https://mp.weixin.qq.com/s/LIcIiVdQsUTqBC3vsmfv-g">激活·教程</a></td>
+<td><a href="https://pan.baidu.com/s/17cRer6SFrJvUM4U5oASe9g">Win7 64位</a>、 <a href="https://pan.baidu.com/s/1O2BzMArqKq3dkozoRD77Cw">Win7 32位</a></td>
+<td>1tni  、1odp</td>
+</tr>
+<tr>
+<td><strong>全系统激活工具</strong>🐢</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.xiaomaxitong.com">一键重装Ghost系统</a></td>
+<td><a href="https://www.panyun.com/">一键重装原生系统</a> 、 <a href="https://lanzous.com/ia87v4f">系统激活</a></td>
+<td><a href="https://lanzous.com/i4adsni">去除Win10更新</a> 、<a href="https://mp.weixin.qq.com/s/X7SgAYVyygqUR-M_toKXvw">教程</a></td>
+</tr>
+<tr>
+<td><strong>Office</strong>🐡</td>
+<td>百度网盘链接</td>
+<td>提取码</td>
+</tr>
+<tr>
+<td>Office 2019</td>
+<td><a href="https://pan.baidu.com/s/1dNWuUS_9rmHstf-eojWmTQ">office 2019</a>、<a href="https://mp.weixin.qq.com/s/4ZPWclVKzbVZ93uoYq2P5A">激活·教程</a></td>
+<td>x59h</td>
+</tr>
+<tr>
+<td>Office 2016</td>
+<td><a href="https://pan.baidu.com/s/1hHQsO8d0Pwdmnn1Y1WuwrA">office 2016</a>、<a href="https://mp.weixin.qq.com/s/pErEh91fpfvug9ZmshSZTg">激活·教程</a></td>
+<td>7z1z</td>
+</tr>
+<tr>
+<td>Office 2013</td>
+<td><a href="https://pan.baidu.com/s/127eV0XiwoKitVHV_lqTZNg">office 2013 64位</a>、<a href="https://pan.baidu.com/s/10LnDF9ceDKK_wAYWvT2yKg">office 2013 32位</a>、<a href="https://mp.weixin.qq.com/s/fHlYWSJUnhBBK0rPDgXaTg">激活·教程</a></td>
+<td>hc0u  、 06f6</td>
+</tr>
+<tr>
+<td>Office 2010</td>
+<td><a href="https://pan.baidu.com/s/1OHNnyePs8panjWPlL-i2zg">office 2010 64位</a>、<a href="https://pan.baidu.com/s/1rWUkmS8KhNmUp0ACo_zlHQ">office 2010 32位</a>、<a href="https://mp.weixin.qq.com/s/hnNfMgV6aysty_bgXdyxIQ">激活·教程</a></td>
+<td>syqx 、 utml</td>
+</tr>
+<tr>
+<td><a href="http://www.wofficebox.com">万彩办公大师</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>WPS Office</strong>🐋</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/i6hhedwdqnc">WPS国际版</a></td>
+<td><a href="http://d0.ananas.chaoxing.com/download/9db23985d4af9c33d7f4a4143c7db6be?fn=">WPS【PC】</a></td>
+<td><a href="https://mp.weixin.qq.com/s/rZ16eH2-zV0QFuMgY3TmFA">各版本激活·教程</a></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/iLIw2dxy4fe">WPS office安卓版</a></td>
+<td>激活密匙：7LR67-WTXPA-KLUHV-GEK2E-QW4CK</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>压缩/解压软件</strong>🐊</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i89oi5e">Winrar去广告</a></td>
+<td><a href="https://lanzous.com/i88loef">压缩包解密</a></td>
+<td><a href="https://mp.weixin.qq.com/s/Z2KA6GP2OhNCDEZyYyapHQ">压缩包解密教程</a></td>
+</tr>
+<tr>
+<td><strong>X-Mind</strong>🐘</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/b0eda7vzg">X-Mind【安卓】</a></td>
+<td>不知道是什么的百度</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>系统优化+驱动安装修复</strong>🐬</td>
+<td>百度网盘链接</td>
+<td>提取码</td>
+</tr>
+<tr>
+<td>Win10优化</td>
+<td><a href="https://pan.baidu.com/s/1sT-y2wz4GbtyuIe8RBLlHg">Win10优化</a>、<a href="https://mp.weixin.qq.com/s/73Scib_oLUDbNVdb36r89g">激活·教程</a></td>
+<td>w5xj</td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i776a3i">超强卸载工具</a></td>
+<td><a href="https://mp.weixin.qq.com/s/RMp7SLcTHCHeYJh16Cxz7Q">激活·教程</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i9spjne">电脑优化大师</a></td>
+<td><a href="https://mp.weixin.qq.com/s/C4iVc3TsBjPwjP0mH083Vg">激活·教程</a></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>电脑安全+广告拦截</strong>🐆</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.huorong.cn">火绒安全</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>文字工具</strong>🐑</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://wws.lanzous.com/id1b1md">论文全套+查重</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>文件扫描+OCR识别</strong>🐳</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i7bhfje">扫描全能王</a></td>
+<td><a href="https://lanzous.com/i5b47ah">口袋扫描仪</a></td>
+<td><a href="https://lanzous.com/ia706xg">CS扫描全能王</a></td>
+</tr>
+<tr>
+<td><strong>PDF工具</strong>🕊</td>
+<td>百度网盘链接</td>
+<td>提取码</td>
+</tr>
+<tr>
+<td>PDF转换器</td>
+<td><a href="https://pan.baidu.com/s/19k6nXgr-mHXDiPJ2u71TzA">PDF转换器</a>、<a href="https://mp.weixin.qq.com/s/_NhRoVG68ZwXM8eIxw2wuw">激活教程</a></td>
+<td>2x0d</td>
+</tr>
+<tr>
+<td><a href="https://docsmall.com">PDF压缩网站</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>图片处理工具电脑端</strong>🐼</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i95p0mb">图片批处理</a></td>
+<td><a href="https://lanzous.com/i9wjx9c">图片压缩软件</a></td>
+<td><a href="https://docsmall.com">图片压缩网站</a></td>
+</tr>
+<tr>
+<td><strong>Photoshop</strong>🐟</td>
+<td>(各版本在【软件安装管家】都有，就不放链接啦~)</td>
+<td></td>
+</tr>
+<tr>
+<td>PS2020专业版</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PS2019 专业版</td>
+<td>PS2019 精简版</td>
+<td></td>
+</tr>
+<tr>
+<td>PS2018 专业版</td>
+<td>PS2018 精简版</td>
+<td>PS Cs6</td>
+</tr>
+</tbody>
+</table>
+<p>转载自公众号【软件视界】</p>
+<p><strong>软件安装管家</strong></p>
+<p>这是一个非常万能的电脑安装软件的公众号,只需要在公众号中发送先要安装的软件名称。（包含下载及安装教程）</p>
+<p><strong>来源</strong>：</p>
+<p>公众号【飞雪科技园】&amp;【软件视界】&amp;【软件安装管家】&amp;【小白种草】</p>
+<p><strong>联系博主</strong></p>
+<p>@邮箱📪<a href="mailto:1039952459@qq.com">1039952459@qq.com</a></p>
+<p><strong>整理不易，打赏博主颗糖，甜甜博主的心~~~💕💕💕</strong></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【学习】kiwi浏览器使用]]></title>
@@ -72,6 +914,54 @@
         <link href="http://imengyi.ink/6hHQv57nF/">
         </link>
         <updated>2020-07-04T10:36:03.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="kiwi浏览器安卓暴力猴插件之详细教程无敌存在">kiwi浏览器（安卓）+暴力猴插件之详细教程（无敌存在）</h3>
+<p>👇教程目录</p>
+<ul>
+<li>1、安装kiwi浏览器</li>
+<li>2、下载暴力猴插件</li>
+<li>3、将暴力猴插件导入kiwi浏览器</li>
+<li>4、暴力猴的简单操作</li>
+<li>5、视频详细教程</li>
+</ul>
+<blockquote>
+<p>🦅kiwi浏览器简介<br>
+谷歌有一个叫做Chromium的开源项目，很多第三方开发者都会以此来开发自己的产品。我们熟知的QQ浏览器、360浏览器、搜狗浏览器，全部都是基于该项目开发的<br>
+而今天要说的这款手机端的Kiwi浏览器，也是基于Chromium开发的，完美兼容所有Chrome插件！<br>
+🐐暴力猴插件能做什么<br>
+比如智慧树等刷网课、自动做题提交；各大视频网站的VIP会员观看；百度文库的免费下载；各个网站的广告拦截；等等<br>
+上面的这些，本次教程将统统教会你</p>
+</blockquote>
+<h3 id="1安装kiwi浏览器">🐏1.安装kiwi浏览器</h3>
+<p>点击安装<a href="https://www.coolapk.com/apk/com.kiwibrowser.browser">kiwi浏览器</a>官方下载地址</p>
+<h3 id="2下载暴力猴插件">🐑2.下载暴力猴插件</h3>
+<p>点击下载<a href="https://wws.lanzous.com/iHYvhdrkr7e">暴力猴插件</a><br>
+下载插件的位置一定要确定，一会要导入此插件</p>
+<h3 id="3将暴力猴插件导入kiwi浏览器">🐩3.将暴力猴插件导入kiwi浏览器</h3>
+<p>点击浏览<a href="https://jingyan.baidu.com/article/154b46319abe6b68cb8f413e.html">百度导入详细教程</a>共10步，超详细一看就会</p>
+<h3 id="4暴力猴的简单操作">🐎4.暴力猴的简单操作</h3>
+<p>这时，你的kiwi浏览器扩展处已启动暴力猴插件，在扩展页面下方会出现猴头<br>
+它的使用只需要你进入到你想要找相应脚本的【网站】，点击【暴力猴】，点击【为此站点查找脚本】，你将进入<a href="https://greasyfork.org/zh-CN">Greasy Fork</a>页面，页面展示的就是你要找的相应网站的脚本，点击想要安装的脚本，点击【安装此脚本】，出现【脚本数据已加载】表示安装成功。<br>
+刷新一下脚本对应的网站即可运行</p>
+<blockquote>
+<p>例如：智慧树，登陆进入智慧树官网，点击暴力猴，查找脚本，第一个就是安装量最多的，点击进去，点击【安装此脚本】，出现【脚本数据已加载】表示安装成功，没有显示就点击安装。<br>
+接下来我们只需要登陆相应脚本的网站，他就会出现自动答题，刷课（有的脚本不会自动提交，手动一下就好了）</p>
+</blockquote>
+<h3 id="5视频详细教程">🐦5.视频详细教程</h3>
+<p>点击进入<a href="https://www.bilibili.com/video/BV1TZ4y1s7a8?from=search&amp;seid=499840942561133429">b站视频-安装插件详细教程</a></p>
+<blockquote>
+<p>因为kiwi浏览器使用的是谷歌搜索，所以无法识别中文，安装<a href="https://wws.lanzous.com/iBP2sdsa9ch">集装箱</a>插件就可以使用啦</p>
+</blockquote>
+<h2 id="总结">🐷总结</h2>
+<p>Kiwi浏览器优秀的一比，无广告、可安装插件、强力的广告过滤、可自定义主页、强制切换电脑版网页......个个功能都是精品</p>
+<blockquote>
+<p>大家可以百度搜相关内容进行深入了解kiwi浏览器的使用</p>
+</blockquote>
+<p><strong>💥注意事项💥</strong><br>
+Greasy Fork 是国外网站，所以会出现加载稍慢的情况，等几秒就好（和本站一样😭）<br>
+kiwi浏览器存在部分华为手机安装不成功（无法解释），大家自行测试<br>
+<strong>🤜有问题不会联系l&amp;meng博主🤛</strong><br>
+邮箱：<a href="mailto:1039952459@qq.com">1039952459@qq.com</a></p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[【学习】浏览器如何安装Chrome插件]]></title>
@@ -79,5 +969,186 @@
         <link href="http://imengyi.ink/QZICRZIrV/">
         </link>
         <updated>2020-07-04T10:34:57.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="浏览器如何安装chrome插件谷歌-edge-火狐-qq">浏览器如何安装Chrome插件(谷歌、Edge、火狐、QQ)</h2>
+<blockquote>
+<p>今天给大家分享一下浏览器如何安装Chrome插件，有游客就会问为什么要安装呢？所以给大家讲解一下。<br>
+浏览器插件：程序的运行有其自己运行的进程、方式等<br>
+其插件只是对其进行起一个补充作用的程序，如3721插件，雅虎插件，百度，中搜，QQ,搜狗，新浪，天下搜索，CNNIC.GOOGLE等。<br>
+浏览器插件，基于浏览器的原有功能，另外增加新功能的工具。</p>
+</blockquote>
+<p>浏览器插件的用处在【<a href="http://imengyi.ink/6hHQv57nF">kiwi浏览器</a>】这一章已经提及过，新朋友可以点击了解一下~~~<br>
+那一章只是讲了其中的一个插件【暴力猴】，这里介绍的是如何在【插件商城】中进行安装</p>
+<h2 id="目录">目录</h2>
+<ul>
+<li>1、谷歌浏览器插件安装教程</li>
+<li>2、Edge浏览器插件安装教程</li>
+<li>3、火狐浏览器插件安装教程</li>
+<li>4、QQ浏览器插件安装教程</li>
+<li>5、几个好用的插件商城</li>
+</ul>
+<h3 id="1-谷歌浏览器插件安装教程">1、谷歌浏览器插件安装教程</h3>
+<p>访问下面链接：【<a href="https://mp.weixin.qq.com/s/RVkup5D_T2S5ZxwnSDZK_A">谷歌浏览器插件安装教程</a>】<br>
+有视频教程、也有文字版教程，非常全面。</p>
+<h3 id="2-edge浏览器插件安装教程">2、Edge浏览器插件安装教程</h3>
+<p>访问下面链接：【<a href="https://mp.weixin.qq.com/s?__biz=MzIyNDUyNDczNg==&amp;mid=2247493951&amp;idx=3&amp;sn=0d88ad460a60d8eb31cf22e2110da0c4&amp;chksm=e80f0990df788086b6e696ddbcddbf943fcef7bca4002f481a3c38d8f3086e42fa8936b017a2&amp;scene=21#wechat_redirect">Edge浏览器插件安装教程</a>】<br>
+没有Edge浏览器的点击这里进行下载【<a href="https://www.microsoft.com/zh-cn/edge?form=MI13F3&amp;OCID=MI13F3">Edge浏览器官方链接</a>】（有旧版本的可以点击下载进行更新）</p>
+<h3 id="3-火狐浏览器插件安装教程">3、火狐浏览器插件安装教程</h3>
+<p>访问下面链接：【<a href="https://jingyan.baidu.com/article/22fe7ced7679b57002617fe5.html">火狐浏览器插件安装教程</a>】</p>
+<h3 id="4-qq浏览器插件安装教程">4、QQ浏览器插件安装教程</h3>
+<p>访问下面链接：【<a href="https://jingyan.baidu.com/article/08b6a59161464f14a80922ca.html">QQ浏览器插件安装教程</a>】</p>
+<h3 id="5-几个好用的插件商城">5、几个好用的插件商城</h3>
+<ul>
+<li><a href="http://www.cnplugins.com">Chrome插件</a></li>
+<li><a href="https://chrome.zzzmh.cn">极简插件</a></li>
+<li><a href="https://www.extfans.com/">扩展迷</a></li>
+</ul>
+<h3 id="联系博主️">联系博主☎️</h3>
+<p>@邮箱📫<a href="mailto:lh103995@dingtalk.com">lh103995@dingtalk.com</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【学习】Win10 系统的疑难杂症处理教程]]></title>
+        <id>http://imengyi.ink/xD0xZtqj0/</id>
+        <link href="http://imengyi.ink/xD0xZtqj0/">
+        </link>
+        <updated>2020-07-04T10:32:40.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="win10-系统处理蓝屏-更新升级系统-恢复优化系统等解决教程">Win10 系统处理蓝屏、更新升级系统、恢复优化系统等解决教程</h2>
+<blockquote>
+<p>Win10 系统可能是目前较为好用，稳定性较强的电脑系统啦，现在的新机大部分都是win10系统，所以今天博主就现在的主流系统来一波详解，大部分博主都已经亲身体验啦~~~</p>
+</blockquote>
+<h3 id="解决教程目录">解决教程目录：</h3>
+<ul>
+<li>
+<p>1、蓝屏、更新错误、镜像文件丢失等导致电脑无法开机</p>
+<p>a、电脑经常死机<br>
+b、win10更新后提示“自动修复”无法进入系统问题操作指导<br>
+c、开机蓝屏和系统使用中蓝屏的处理思路<br>
+d、博主的处理方法（实测有效）</p>
+</li>
+<li>
+<p>2、win10各版本之间的更改、激活</p>
+<p>a、win10家庭中文版---专业版（产品密钥）<br>
+b、win10家庭版/专业版---企业版（产品密钥）<br>
+c、win10个版本之间更改与激活（软件操作）</p>
+</li>
+<li>
+<p>3、一键重装系统以及系统激活</p>
+<p>a、小马一键重装<br>
+b、盘古装机</p>
+</li>
+<li>
+<p>4、win10 优化处理</p>
+<p>a、Win10优化<br>
+b、超强卸载工具<br>
+c、电脑优化大师</p>
+</li>
+<li>
+<p>5、恢复电脑文件</p>
+</li>
+</ul>
+<h3 id="1-蓝屏-更新错误-镜像文件丢失等导致电脑无法开机">1、蓝屏、更新错误、镜像文件丢失等导致电脑无法开机</h3>
+<pre><code>a、电脑经常死机
+b、win10更新后提示“自动修复”无法进入系统问题操作指导
+c、开机蓝屏和系统使用中蓝屏的处理思路
+d、博主的处理方法（实测有效）
+</code></pre>
+<p><a href="http://iknow.lenovo.com.cn/app/detail/dc_R0181.html">电脑经常死机解决教程</a><br>
+<a href="http://iknow.lenovo.com.cn/app/detail/dc_187110.html">win10更新后提示“自动修复”无法进入系统问题操作指导解决教程</a><br>
+<a href="http://iknow.lenovo.com.cn/app/detail/dc_125345.html">开机蓝屏和系统使用中蓝屏的处理思路</a><br>
+<a href="http://iknow.lenovo.com.cn/app/detail/dc_118420.html">博主的处理方法</a>【还原系统、可备份文件（部分文件缺失）】</p>
+<h3 id="2-win10各版本之间的更改-激活-升级">2、win10各版本之间的更改、激活、升级</h3>
+<pre><code>a、win10家庭中文版---专业版（产品密钥）
+b、win10家庭版/专业版---企业版（产品密钥）
+c、win10个版本之间更改与激活（软件操作）
+</code></pre>
+<p>win10家庭中文版---专业版（产品密钥）：<br>
+产品密钥// 这些是产品安装秘钥不是激活秘钥!<br>
+Windows 10 专业版 VK7JG-NPHTM-C97JM-9MPGT-3V66T<br>
+Windows 10 专业版VL版 W269N-WFGWX-YVC9B-4J6C9-T83GX<br>
+Windows 10 企业版 XGVPP-NMH47-7TTHJ-W3FW7-8HV2C<br>
+Windows 10 企业版VL版 NPPR9-FWDCX-D2C8J-H872K-2YT43<br>
+Windows 10 教育版 YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY<br>
+Windows 10 教育版VL版 NW6C2-QMPVW-D7KKK-3GKT6-VCFB2<br>
+Windows 10 家庭版 YTMG3-N6DKC-DKB77-7M9GH-8HVX7<br>
+Windows 10 家庭中文版 N2434-X9D7W-8PF6X-8DV9T-8TYMD<br>
+Windows 10 专业教育版 8PTT6-RNW4C-6V7J2-C2D3X-MHBPB<br>
+Windows 10 专业工作站版 DXG7C-N36C4-C4HTG-X4T3X-2YV77<br>
+Windows 10 专业仅中文版 HNGCC-Y38KG-QVK8D-WMWRK-X86VK<br>
+Windows 10 专业单语言版 G3KNM-CHG6T-R36X3-9QDG6-8M8K9<br>
+Windows 10 家庭单语言版 BT79Q-G7N6G-PGBYW-4YWX6-6F4BT<br>
+其他版本所有产品密钥请查阅 https://pastebin.com/raw/gVmc5S9c</p>
+<p>命令查看Win10等详细激活信息方法</p>
+<p>Win+R 输入：</p>
+<p>slmgr.vbs -dlv 显示：最为详尽的激活信息，包括：激活ID、安装ID、激活截止日期</p>
+<p>slmgr.vbs -dli 显示：操作系统版本、部分产品密钥、许可证状态</p>
+<p>slmgr.vbs -xpr 显示：是否永久激活</p>
+<p>博主推荐个人使用专业版就好，小企业或大企业使用企业版，适合自己的才是最好的！！！</p>
+<p>win10个版本之间更改与激活（软件操作）：<br>
+<a href="https://www.lanzous.com/ia87v4f">云萌系统</a>【傻瓜式操作、自动模式匹配安装版本并激活】</p>
+<h3 id="3-一键重装系统以及系统激活">3、一键重装系统以及系统激活</h3>
+<pre><code>a、小马一键重装
+b、盘古装机
+</code></pre>
+<blockquote>
+<p>为什么要重装系统？<br>
+比如电脑卡了、蓝屏了、死机了！或者某个女同学电脑出了点问题，叫你帮她整一下<br>
+这时候你要是整不明白，为了不在妹子面前丢面子，重装系统大法解决一切毛病，忽悠一下人家，给她重装就完事儿了~<br>
+但你可能会随时随地带着个U盘在身上吗？肯定不可能啊！今天就给大家带来一款一键重装电脑系统的神器，傻瓜式操作，小白也可任性装系统！</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>小马一键重装</th>
+<th><a href="https://mp.weixin.qq.com/s/XproO-n0WGwSn_itNRvwnw">简介</a></th>
+<th><a href="https://www.xiaomaxitong.com">下载</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>盘古装机</td>
+<td><a href="https://mp.weixin.qq.com/s/V23oWtp8NgRyReKNXUWzpw">简介</a></td>
+<td><a href="https://www.panyun.com">下载</a></td>
+</tr>
+<tr>
+<td>系统激活</td>
+<td><a href="https://www.lanzous.com/ia87v4f">云萌系统</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-win10-优化处理">4、win10 优化处理</h3>
+<table>
+<thead>
+<tr>
+<th>Win10优化</th>
+<th><a href="https://pan.baidu.com/s/1sT-y2wz4GbtyuIe8RBLlHg">Win10优化</a>、<a href="https://mp.weixin.qq.com/s/73Scib_oLUDbNVdb36r89g">激活·教程</a></th>
+<th>w5xj</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://lanzous.com/i776a3i">超强卸载工具</a></td>
+<td><a href="https://mp.weixin.qq.com/s/RMp7SLcTHCHeYJh16Cxz7Q">激活·教程</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://lanzous.com/i9spjne">电脑优化大师</a></td>
+<td><a href="https://mp.weixin.qq.com/s/C4iVc3TsBjPwjP0mH083Vg">激活·教程</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-恢复电脑文件">5、恢复电脑文件</h3>
+<p><a href="https://www.lanzous.com/iagnozi">电脑文件数据恢复</a><br>
+注意：大家解压后进入文件夹，双击运行“recoverit主程序.exe”即可打开。文中的图片有点小错误抱歉哈~</p>
+<p>PS:win10版本更新遇到的问题及解决方法</p>
+<ul>
+<li>1.win10官网下载<a href="https://www.microsoft.com/zh-cn/software-download/windows10">易升</a>进行更新</li>
+<li>2.win10更新，0x8000FFFF错误<br>
+Windows无法更新，无法启用功能 ，0x8000FFFF错误，系统存在损坏文件，用管理员打开命令行（或powershell）运行sfc /scannow检查并修复。</li>
+</ul>
+<h3 id="来源">来源</h3>
+<p>各大网站整理所得</p>
+]]></content>
     </entry>
 </feed>
