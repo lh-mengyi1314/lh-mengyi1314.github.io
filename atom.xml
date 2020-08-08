@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-08-08T03:23:12.139Z</updated>
+    <updated>2020-08-08T03:56:59.333Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>http://imengyi.ink/images/avatar.png</logo>
     <icon>http://imengyi.ink/favicon.ico</icon>
     <rights>All rights reserved 2020, l&amp;meng</rights>
+    <entry>
+        <title type="html"><![CDATA[小众网址---终归用得着]]></title>
+        <id>http://imengyi.ink/GLWmyjSy3/</id>
+        <link href="http://imengyi.ink/GLWmyjSy3/">
+        </link>
+        <updated>2020-08-08T03:46:39.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020最新 Windows10电脑 蓝屏代码大全]]></title>
+        <id>http://imengyi.ink/o_rgh1y3t/</id>
+        <link href="http://imengyi.ink/o_rgh1y3t/">
+        </link>
+        <updated>2020-08-08T03:39:37.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020最新在线观影，视频解析平台，免费影视网站合集]]></title>
+        <id>http://imengyi.ink/k8tLhTIWl/</id>
+        <link href="http://imengyi.ink/k8tLhTIWl/">
+        </link>
+        <updated>2020-08-08T03:31:54.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【整理笔记】第八章 假设检验]]></title>
         <id>http://imengyi.ink/g-gLAlvI5/</id>
