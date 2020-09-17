@@ -9,8 +9,8 @@
 <meta name="description" content="学如逆水行舟，不进则退">
 <meta name="theme-color" content="#000">
 <title>【整理笔记】第三章 二元随机变量及其分布 | l&amp;meng</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1600342531546">
-<link rel="stylesheet" href="/media/css/gemini.css">
+<link rel="shortcut icon" href="/favicon.ico?v=1600342595729">
+<link rel="stylesheet" href="/media/css/muse.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
   href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
@@ -56,9 +56,9 @@
   <div class="head-top-line"></div>
   <div class="header-box">
     
-<div class="gemini">
-  <header class="header  ">
-    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+<div class="muse">
+  <header class="header bg-color ">
+    <div class="blog-header box-shadow-wrapper  " id="header">
       <div class="nav-toggle" id="nav_toggle">
         <div class="toggle-box">
           <div class="line line-top"></div>
@@ -195,13 +195,13 @@
   <div class="main-continer">
     
     <div
-      class="section-layout gemini ">
+      class="section-layout muse bg-color">
       <div class="section-layout-wrapper">
         
 
 <div class="sidebar">
   
-    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+    <div class="sidebar-box box-shadow-wrapper  right-motion" id="sidebar">
       
         <div class="post-list-sidebar">
           <div class="sidebar-title">
@@ -210,11 +210,11 @@
           </div>
         </div>
       
-      <div class="sidebar-body gemini" id="sidebar_body">
+      <div class="sidebar-body muse" id="sidebar_body">
         
           
             
-<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+<div class="sidebar-wrapper box-shadow-wrapper ">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
     <p class="site-author-name">萌毅</p>
@@ -248,15 +248,6 @@
     </div>
   </div>
   
-    
-      <div class="sidebar-item">
-        <span class="site-item-rss">
-            <i class="fa fa-rss"></i>
-            <a href="http://imengyi.ink/atom.xml" target="_blank">RSS</a>
-        </span>
-      </div>
-    
-  
   
     <div class="sidebar-item sidebar-item-social">
       <div class="social-item">
@@ -277,11 +268,6 @@
   
 
 
-
-  <div style="width: 100%; position: relative;">
-    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
-    <script src="/media/js/magic/clock.js"></script>
-  </div>
 
 </div>
           
@@ -536,12 +522,14 @@
   </footer>
   
   
-  <div class="gemini back-to-top" id="back_to_top">
+  <div class="drawer-box right" id="drawer_box">
+    <span class="muse-line muse-line-first"></span>
+    <span class="muse-line muse-line-middle"></span>
+    <span class="muse-line muse-line-last"></span>
+  </div>
+  
+  <div class="muse back-to-top" id="back_to_top">
     <i class="fa fa-arrow-up"></i>
-    
-    <span class="scrollpercent">
-      <span id="back_to_top_text">0</span>%
-    </span>
     
   </div>
   
@@ -552,6 +540,50 @@
   <div id="landlord" style="left: 5px;bottom: px;"
     data-key="">
     <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+    
+
+      <div class="message" style="opacity:0"></div>
+      <div class="live_talk_input_body">
+        <div class="live_talk_input_name_body">
+          <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off"
+            placeholder="你的名字" />
+        </div>
+        <div class="live_talk_input_text_body">
+          <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off"
+            placeholder="要和我聊什么呀？" />
+          <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+        </div>
+      </div>
+      <input name="live_talk" id="live_talk" value="1" type="hidden" />
+      <div class="live_ico_box">
+        <div class="live_ico_item type_info" id="showInfoBtn"></div>
+        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+        
+        <div class="live_ico_item type_music" id="musicButton"></div>
+        
+        <div class="live_ico_item type_youdu" id="youduButton"></div>
+        <div class="live_ico_item type_quit" id="hideButton"></div>
+        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+        <input id="duType" value="douqilai" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051620/d5bec7f2e5e5b37d5c6a2e08fe25388a/G121/M01/1A/08/GYcBAFpchDuARhf6ABcg4iPCETM478.mp3" type="hidden">
+        
+        <input name="live2dBGM" value="https://antiserver.kuwo.cn/anti.s?useless=/resource/&amp;format=mp3&amp;rid=MUSIC_7095195&amp;response=res&amp;type=convert_url&amp;" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051638/f5df568213f95ba62639e2e1875a4247/G107/M0B/02/11/S5QEAFmneO-AZi7GAEWooMaaGsw961.mp3" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051625/deafbd3d2aab39bc81fa01b2450e7562/G103/M04/17/09/pw0DAFmHMvaAYEGUADKtDpsRafg450.mp3" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051641/eb06ab69ab87f507b569f21f3caee74a/G209/M04/15/1B/sZQEAF5yIAGABKyMADz-g6dtNsQ387.mp3" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051636/119647d9410b7c4d1edf37dc3ccd7f68/G200/M0A/14/15/aIcBAF54ZTuASZlZAEOqn_GhLhs992.mp3" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051629/66a0516fd23152bd69213b372538b4d7/G171/M07/1F/05/i5QEAF26pGeAMPHiADWzkIj97AU712.mp3" type="hidden">
+        
+        <input name="live2dBGM" value="https://sharefs.yun.kugou.com/202007051634/5e9dd0775d2ba26285b628373f10a498/G170/M07/16/11/SocBAF3H3aqAUYOEADmpdloW3bU827.mp3" type="hidden">
+        
+      </div>
     
   </div>
 </div>
