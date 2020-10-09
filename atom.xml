@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-10-09T09:11:21.135Z</updated>
+    <updated>2020-10-09T09:53:02.546Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -11,7 +11,14 @@
     <icon>http://imengyi.ink/favicon.ico</icon>
     <rights>All rights reserved 2020, l&amp;meng</rights>
     <entry>
-        <title type="html"><![CDATA[常微分方程---复习]]></title>
+        <title type="html"><![CDATA[【整理笔记】SPSS软件实验报告以及论文]]></title>
+        <id>http://imengyi.ink/pckrbLl42/</id>
+        <link href="http://imengyi.ink/pckrbLl42/">
+        </link>
+        <updated>2020-10-09T09:18:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【整理笔记】常微分方程---复习]]></title>
         <id>http://imengyi.ink/fPqb6XFd6/</id>
         <link href="http://imengyi.ink/fPqb6XFd6/">
         </link>
