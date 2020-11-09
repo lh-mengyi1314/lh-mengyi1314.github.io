@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-11-09T09:58:56.255Z</updated>
+    <updated>2020-11-09T13:54:48.829Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -16,13 +16,6 @@
         <link href="http://imengyi.ink/ID84EW8hC/">
         </link>
         <updated>2020-11-06T02:50:08.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【初稿】至爱]]></title>
-        <id>http://imengyi.ink/ydNRO_JwH/</id>
-        <link href="http://imengyi.ink/ydNRO_JwH/">
-        </link>
-        <updated>2020-10-18T15:20:32.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[【正大杯】参赛文件及PPT]]></title>
