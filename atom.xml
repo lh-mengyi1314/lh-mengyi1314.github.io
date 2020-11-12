@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://imengyi.ink</id>
     <title>l&amp;meng</title>
-    <updated>2020-11-09T13:54:48.829Z</updated>
+    <updated>2020-11-12T13:44:01.916Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://imengyi.ink"/>
     <link rel="self" href="http://imengyi.ink/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>http://imengyi.ink/images/avatar.png</logo>
     <icon>http://imengyi.ink/favicon.ico</icon>
     <rights>All rights reserved 2020, l&amp;meng</rights>
+    <entry>
+        <title type="html"><![CDATA[【考研自习室】咸鱼不臭]]></title>
+        <id>http://imengyi.ink/q1iYw9Yps/</id>
+        <link href="http://imengyi.ink/q1iYw9Yps/">
+        </link>
+        <updated>2020-11-10T08:40:58.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【考研规划】考研备考初期规划]]></title>
         <id>http://imengyi.ink/ID84EW8hC/</id>
@@ -51,69 +58,6 @@
         <link href="http://imengyi.ink/fPqb6XFd6/">
         </link>
         <updated>2020-10-07T13:01:22.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第八章 假设检验]]></title>
-        <id>http://imengyi.ink/g-gLAlvI5/</id>
-        <link href="http://imengyi.ink/g-gLAlvI5/">
-        </link>
-        <updated>2020-07-16T07:06:44.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第七章 参数估计]]></title>
-        <id>http://imengyi.ink/6q-1J2gzJ/</id>
-        <link href="http://imengyi.ink/6q-1J2gzJ/">
-        </link>
-        <updated>2020-07-15T08:51:06.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第六章 统计量与抽样分布]]></title>
-        <id>http://imengyi.ink/B8BGnx-cJ/</id>
-        <link href="http://imengyi.ink/B8BGnx-cJ/">
-        </link>
-        <updated>2020-07-15T08:49:25.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第五章 大数定律及中心极限定理]]></title>
-        <id>http://imengyi.ink/dVjxFAHzz/</id>
-        <link href="http://imengyi.ink/dVjxFAHzz/">
-        </link>
-        <updated>2020-07-15T08:42:09.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第四章 随机变量的数字特征]]></title>
-        <id>http://imengyi.ink/1VcZZRLOl/</id>
-        <link href="http://imengyi.ink/1VcZZRLOl/">
-        </link>
-        <updated>2020-07-15T08:39:24.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第三章 二元随机变量及其分布]]></title>
-        <id>http://imengyi.ink/w0UsmLXxv/</id>
-        <link href="http://imengyi.ink/w0UsmLXxv/">
-        </link>
-        <updated>2020-07-15T08:28:23.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第二章 随机变量及其概率分布]]></title>
-        <id>http://imengyi.ink/a0mTf9lzB/</id>
-        <link href="http://imengyi.ink/a0mTf9lzB/">
-        </link>
-        <updated>2020-07-15T08:25:03.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】第一章 概率论的基本概念]]></title>
-        <id>http://imengyi.ink/drqTcVI2J/</id>
-        <link href="http://imengyi.ink/drqTcVI2J/">
-        </link>
-        <updated>2020-07-15T08:19:39.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【整理笔记】概率论与数理统计|公式大全]]></title>
-        <id>http://imengyi.ink/y30O-bV6m/</id>
-        <link href="http://imengyi.ink/y30O-bV6m/">
-        </link>
-        <updated>2020-07-09T16:49:23.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[【整理笔记】概率论与数理统计]]></title>
