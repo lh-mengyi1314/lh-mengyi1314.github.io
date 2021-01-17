@@ -8,7 +8,7 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="学如逆水行舟，不进则退">
 <meta name="theme-color" content="#000">
-<title>【整理笔记】第一章 概率论的基本概念 | l&amp;meng</title>
+<title>【考研规划】时间规划（新年版） | l&amp;meng</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1610861785687">
 <link rel="stylesheet" href="/media/css/mist.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
@@ -48,8 +48,8 @@
 </script>
 
 
-  <meta name="description" content="【整理笔记】第一章 概率论的基本概念" />
-  <meta name="keywords" content="概率论" />
+  <meta name="description" content="【考研规划】时间规划（新年版）" />
+  <meta name="keywords" content="考研,学习" />
 </head>
 
 <body>
@@ -230,7 +230,8 @@
       <div class="sidebar-body mist" id="sidebar_body">
         
           
-            
+            <div class="post-side-meta" id="post_side_meta">
+              
 <div class="sidebar-wrapper box-shadow-wrapper ">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -287,6 +288,203 @@
 
 
 </div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number auto"
+    id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E4%B8%80-%E5%A4%8D%E4%B9%A0%E8%A7%84%E5%88%92%E5%8F%82%E8%80%83">一、复习规划参考</a></li>
+<li><a href="#%E4%BA%8C-%E5%90%84%E7%A7%91%E5%A4%8D%E4%B9%A0%E8%A6%81%E7%82%B9">二、各科复习要点</a>
+<ul>
+<li><a href="#1%E6%95%B0%E5%AD%A6">1.数学</a></li>
+<li><a href="#2%E8%8B%B1%E8%AF%AD">2.英语</a></li>
+<li><a href="#3-%E4%B8%93%E4%B8%9A%E8%AF%BE">3、专业课</a></li>
+<li><a href="#%E4%B8%89-%E6%AF%8F%E7%AF%87%E4%B8%80%E5%8F%A5">三、每篇一句</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
+  let active = 'active-show', activeClass = 'active-current';
+  let tocWrapper = document.querySelector('#toc_wrapper');
+  let tocContent = tocWrapper.children[0];
+  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
+
+  function addTocNumber(elem, deep) {
+    if (!elem) {
+      return;
+    }
+    let prop = elem.__proto__;
+
+    if (prop === HTMLUListElement.prototype) {
+      for (let i = 0; i < elem.children.length; i++) {
+        addTocNumber(elem.children[i], deep + (i + 1) + '.');
+      }
+    } else if (prop === HTMLLIElement.prototype) {
+      // 保存li元素
+      if (elem.children[0] && elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+        lList.push(elem);
+      }
+      for (let i = 0; i < elem.children.length; i++) {
+        let cur = elem.children[i];
+        if (cur.__proto__ === HTMLAnchorElement.prototype) {
+          if (autoNumber) {
+            cur.text = deep + ' ' + cur.text;
+          }
+        } else if (cur.__proto__ === HTMLUListElement.prototype) {
+          addTocNumber(cur, deep);
+        }
+      }
+    }
+  }
+
+  function removeParentActiveClass() {
+    let parents = tocContent.querySelectorAll('.' + active)
+    parents.forEach(function (elem) {
+      elem.classList.remove(active);
+    });
+  }
+
+  function addActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.add(activeClass);
+    }
+  }
+
+  function removeActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.remove(activeClass);
+    }
+  }
+
+  function addActiveLiElemment(elem, parent) {
+    if (!elem || elem === parent) {
+      return;
+    } else {
+      if (elem.__proto__ === HTMLLIElement.prototype) {
+        elem.classList.add(active);
+      }
+      addActiveLiElemment(elem.parentElement, parent);
+    }
+  }
+
+  function showToc() {
+    if (tocWrapper) {
+      postBody = document.querySelector('#post_body');
+      for (let i = 0; i < postBody.children.length; i++) {
+        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+          hList.push(postBody.children[i]);
+        }
+      }
+      if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+      } else if (tocWrapper.classList.contains('no_compress')) {
+        tocContent.classList.add('expanded');
+      } else {
+        if (hList.length > 10) {
+          active = 'active-hidden'
+          tocContent.classList.add('closed');
+        } else {
+          tocContent.classList.add('expanded');
+        }
+      }
+    }
+  }
+
+  (function () {
+    // 处理不是从#一级标题开始目录
+    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+      let con = tocContent.children[0].children[0];
+      tocContent.innerHTML = con.innerHTML;
+    }
+    let markdownItTOC = document.querySelector('.markdownIt-TOC');
+    let innerHeight = window.innerHeight;
+    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+    addTocNumber(tocContent, '');
+  })();
+
+  document.addEventListener('scroll', function (e) {
+    if (lList.length <= 0) {
+      return;
+    }
+    let scrollTop = document.scrollingElement.scrollTop + 10;
+    let dir;
+
+    if (lastTop - scrollTop > 0) {
+      dir = 'up';
+    } else {
+      dir = 'down';
+    }
+
+    lastTop = scrollTop;
+    if (scrollTop <= 0) {
+      if (lastIndex >= 0 && lastIndex < hList.length) {
+        lList[lastIndex].classList.remove(activeClass);
+      }
+      return;
+    }
+
+    let current = 0, hasFind = false;
+    for (let i = 0; i < hList.length; i++) {
+      if (hList[i].offsetTop > scrollTop) {
+        current = i;
+        hasFind = true;
+        break;
+      }
+    }
+    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+      current = hList.length - 1;
+    } else {
+      current--;
+    }
+    if (dir === 'down') {
+      if (current > lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex)
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    } else {
+      if (current < lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex);
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    }
+  });
+
+
+  window.addEventListener('load', function () {
+    showToc();
+    document.querySelector('#sidebar').style = 'display: block;';
+    tocWrapper.classList.add('toc-active');
+    setTimeout(function () {
+      if ("createEvent" in document) {
+        let evt = document.createEvent("HTMLEvents");
+        evt.initEvent("scroll", false, true);
+        document.dispatchEvent(evt);
+      }
+      else {
+        document.fireEvent("scroll");
+      }
+    }, 500)
+  })
+
+</script>
+            </div>
           
         
       </div>
@@ -374,16 +572,22 @@
           <div class="section bg-color post post-page">
             <section class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="http://imengyi.ink/drqTcVI2J/">
-      【整理笔记】第一章 概率论的基本概念
+    <a class="post-title-link" href="http://imengyi.ink/jvqa4mIEN/">
+      【考研规划】时间规划（新年版）
     </a>
   </h1>
   <div class="post-meta">
     
+    <span class="meta-item">
+      <i class="fa fa-thumb-tack"></i>
+      <span class="language" data-lan="top">置顶</span>
+      <span class="post-meta-divider">|</span>
+    </span>
+    
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2020-07-15 16:19:39">2020-07-15</span>
+      <span class="publish-time" data-t="2021-01-17 13:10:39">2021-01-17</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
@@ -392,8 +596,14 @@
       <span class="pc-show language" data-lan="category-in">分类于</span>
       
       
-      <a href="http://imengyi.ink/wP1tPuhTd/">
-        <span>概率论</span>
+      <a href="http://imengyi.ink/XThov-Lrj/">
+        <span>考研</span>
+      </a>、
+      
+      
+      
+      <a href="http://imengyi.ink/9evfAEDJj/">
+        <span>学习</span>
       </a>
       
       
@@ -402,17 +612,17 @@
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>0<span class="language" data-lan="minute">分钟</span></span>
+      <span>5<span class="language" data-lan="minute">分钟</span></span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>0<span class="pc-show language" data-lan="words">字数</span></span>
+      <span>1211<span class="pc-show language" data-lan="words">字数</span></span>
     </span>
     
     
     
-    <span id="/drqTcVI2J/" data-flag-title="【整理笔记】第一章 概率论的基本概念" class="meta-item pc-show leancloud_visitors">
+    <span id="/jvqa4mIEN/" data-flag-title="【考研规划】时间规划（新年版）" class="meta-item pc-show leancloud_visitors">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-eye"></i>
       <span><span class="language" data-lan="view">浏览量</span>：<span class="leancloud-visitors-count"></span></span>
@@ -421,9 +631,37 @@
   </div>
 </section>
             <div class="post-body next-md-body" id="post_body">
-              <p><img src="https://s1.ax1x.com/2020/07/15/UwGvuQ.jpg" alt="UwGvuQ.jpg" loading="lazy"><br>
-<img src="https://s1.ax1x.com/2020/07/15/UwGXjg.jpg" alt="UwGXjg.jpg" loading="lazy"><br>
-<img src="https://s1.ax1x.com/2020/07/15/UwGOgS.jpg" alt="UwGOgS.jpg" loading="lazy"></p>
+              <p>寒假时间大约1.15-2.28，除掉除夕那十天左右的过年休息期，大概还有5周的时间，一定要充分利用起来，这个阶段的核心目标，用16字概括就是**“打牢基础、尽快择校、思想动员、全面推进”。**</p>
+<h2 id="一-复习规划参考">一、复习规划参考</h2>
+<p>除了除夕那一周左右的时间，可以把学习放在一边以外，其余时间，建议平均每天有效学习6小时，早上2个半小时，下午2个半小时，晚上1小时，周六周日各休息半天，以下是复习规划参考。<br>
+<img src="https://i.loli.net/2021/01/17/I9sKTzS8XBiZlyJ.jpg" alt="01.jpg" loading="lazy"><br>
+这边需要强调下两个方面，一个是寒假还不必进入全力（每天9小时以上的学习时间）备考时期，需要劳逸结合，不要强度过大，以免后继乏力；另一个是虽然我这个复习规划看起来强度不大，但关键是要能够严格执行下去。你每天学习6小时，比你今天学10小时，明天放松一天，来的效果更好。</p>
+<p><strong>早上的时间，适合记忆，可以用来背单词、学习专业课的新内容；下午则是可以用来做数学题；晚上的时间，适合温故知新，可以用来复习下白天的单词和其他记忆性内容。</strong></p>
+<h2 id="二-各科复习要点">二、各科复习要点</h2>
+<p>寒假期间一定要把数学、英语的基础打牢，专业课则是也要把知识体系初步搭建起来。</p>
+<h3 id="1数学">1.数学</h3>
+<p><strong>这阶段的主要目标：了解整个考研数学的知识框架，熟悉基础的概念、定理、性质与解题技巧。</strong></p>
+<h3 id="2英语">2.英语</h3>
+<p>英语的第一任务是要把单词至少再过一轮！！<br>
+<strong>具体步骤：</strong><br>
+（1）早上<strong>先听一遍单词的录音，跟着读一遍新单词，<strong>这样对新单词的读法有个大概的印象；<br>
+（2）接着开始自己背单词，我的背诵习惯是</strong>边默写边背</strong>，把核心单词的每一个中文意思都写一遍，也会<strong>看下例句</strong>，加强对单词的理解。一般可以保证早上的一小时能大概把新单词记得有些熟悉，很不熟练的单词标注下；<br>
+（3）<strong>晚上的时候会再用相同的方法把单词背一遍</strong>，尤其是把不熟练的单词再多背；<br>
+（4）<strong>第二天早上我会再用20分钟左右温习</strong>下昨天的单词，具体方法是把昨天的单词遮住中文意思，看着英文去回忆中文意思；<br>
+<strong>背诵技巧：</strong><br>
+（1）<strong>用零碎时间背诵</strong>，把吃完饭刷抖音、睡前刷知乎的时间拿来背几个单词；<br>
+（2）人的记忆是从短期到长期的，要<strong>定期（2-3天）重新温习下</strong>之前的单词；<br>
+（3）对于<strong>比较难背的单词，进行标注</strong>，作为下次单词温习的重点；<br>
+（4）背单词是持久战，但<strong>熟背单词考研英语就成功了一半</strong>；<br>
+<strong>最终需要达到的水准:</strong> 核心单词，你把中文意思遮住，能在3秒内回忆起基本所有中文意思(如果很偏的可以选择性遗漏)；超纲单词，则是回忆起主要意思。</p>
+<h3 id="3-专业课">3、专业课</h3>
+<p>专业课的学习也是一场信息战，一定要找到最准确、全面的信息。<br>
+<strong>提前了解考试重点</strong><br>
+复习前先把历年真题都认真看一遍，虽然你看不懂试卷内容，但至少对每年考了哪些知识版块会心里有数，可以总结下每年的主要考点，这是主要矛盾，这样在接下来的复习过程中，把握这个主要矛盾，会更有方向感。<strong>打基础，搭框架，看视频在</strong><br>
+自己复习的过程中，要学会做笔记，标注重难点，然后学会自己做思维导图与知识框架。也可以直接写在纸上，不必画ppt。制作思维导图的软件有推荐：Xmind、Mindmast、Blumind等，我在学习的时候更喜欢手写制作的思维导图，如果有现成的思维导图，会打印出来，然后增加删减制作属于自己思维导图。<br>
+**思维导图构建方法：**章标题——小节标题——小节重要知识点标题——重要知识点关键词列式（便于自己理解，在复习中也要根据自己的复习情况补充添加）</p>
+<h3 id="三-每篇一句">三、每篇一句</h3>
+<p>⏰⏰⏰我可以放弃一切，但决不放弃考研;我可以坚持一切，但绝不给懒惰找借口。不求做给谁看，但求问心无愧。到时候，只希望自己可以没有愧疚的说一句：我尽力了!</p>
 
             </div>
             
@@ -440,7 +678,7 @@
     </li>
     <li class="post-copyright-link">
       <strong class="language" data-lan="link">本文链接：</strong>
-      <a href="http://imengyi.ink/drqTcVI2J/" title="【整理笔记】第一章 概率论的基本概念">http://imengyi.ink/drqTcVI2J/</a>
+      <a href="http://imengyi.ink/jvqa4mIEN/" title="【考研规划】时间规划（新年版）">http://imengyi.ink/jvqa4mIEN/</a>
     </li>
     <li class="post-copyright-license">
       <strong class="language" data-lan="copyright">版权声明： </strong>
@@ -449,7 +687,9 @@
   </ul>
   <div class="tags">
     
-      <a href="http://imengyi.ink/wP1tPuhTd/"># 概率论</a>
+      <a href="http://imengyi.ink/XThov-Lrj/"># 考研</a>
+    
+      <a href="http://imengyi.ink/9evfAEDJj/"># 学习</a>
     
   </div>
   <div class="nav">
@@ -457,6 +697,10 @@
       
     </div>
     <div class="nav-next">
+      
+        <a class="nav-pc-next" title="【考研自习室】拖延日记本" href="http://imengyi.ink/q1iYw9Yps/">【考研自习室】拖延日记本</a>
+        <a class="nav-mobile-next" title="【考研自习室】拖延日记本" href="http://imengyi.ink/q1iYw9Yps/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
       
     </div>
   </div>
