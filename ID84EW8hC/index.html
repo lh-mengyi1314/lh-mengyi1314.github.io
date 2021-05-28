@@ -9,7 +9,7 @@
 <meta name="description" content="学如逆水行舟，不进则退">
 <meta name="theme-color" content="#000">
 <title>【考研规划】考研备考初期规划 | l&amp;meng</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1621731938130">
+<link rel="shortcut icon" href="/favicon.ico?v=1622215616480">
 <link rel="stylesheet" href="/media/css/mist.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -235,7 +235,7 @@
 <div class="sidebar-wrapper box-shadow-wrapper ">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
-    <p class="site-author-name">萌毅</p>
+    <p class="site-author-name">萌依</p>
     
     <div class="site-description right-motion">
       
@@ -248,19 +248,19 @@
     <div class="sidebar-item-box">
       <a href="/archives/">
         
-        <span class="site-item-stat-count">14</span>
+        <span class="site-item-stat-count">15</span>
         <span class="site-item-stat-name language" data-lan="article">文章</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="">
-        <span class="site-item-stat-count">7</span>
+        <span class="site-item-stat-count">8</span>
         <span class="site-item-stat-name language" data-lan="category">分类</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="/tags/">
-        <span class="site-item-stat-count">7</span>
+        <span class="site-item-stat-count">8</span>
         <span class="site-item-stat-name language" data-lan="tag">标签</span>
       </a>
     </div>
@@ -681,7 +681,7 @@
   <ul class="post-copyright">
     <li class="post-copyright-author">
       <strong class="language" data-lan="author">本文作者：</strong>
-      萌毅
+      萌依
     </li>
     <li class="post-copyright-link">
       <strong class="language" data-lan="link">本文链接：</strong>
@@ -960,34 +960,24 @@
   }
 
 </script>
-    <div class="light-box" id="light_box"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 <script>
-  let imgs = document.querySelectorAll('.post-body img');
-  let lightBox = document.querySelector('#light_box');
-  lightBox.addEventListener('mousedown', (e) => {
-    e.preventDefault()
-  })
-  lightBox.addEventListener('mousewheel', (e) => {
-    e.preventDefault()
-  })
-  let width = window.innerWidth * 0.8;
-  lightBox.onclick = () => {
-    let img = lightBox.querySelector('img');
-    lightBox.style = '';
-    img && img.remove();
-  }
-  imgs.forEach(item => {
-    item.onclick = function (e) {
-      let lightImg = document.createElement('img');
-      lightImg.src = this.src;
-      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
-      lightImg.style = `width: ${width}px;border-radius: 2px;`;
-      lightImg.onclick = function () {
-        lightBox.style = '';
-        this.remove();
-      }
-      lightBox.append(lightImg);
-    }
+  let images = document.querySelectorAll('.section img');
+  console.log(images);
+  images.forEach(image => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement('a');
+    aelem.href = image.src;
+    aelem.dataset['fancybox'] = 'images';
+    aelem.dataset['rel'] = 'fancybox-button';
+    aelem.classList.add('fancybox');
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
   })
 </script>
     <div class="reward-mask" style="display: none;">
@@ -1232,6 +1222,51 @@
     <div class="result" id="result">
       
       <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://imengyi.ink/4VaBk7QgS/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;刚入场时的我们就像是疯狗一样疯狂买入，如今的气势已经没啦&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2021年初，身边好多人连大学生都在讨论基金赚钱，于是好多小白进入基金圈也大赚了不少钱，在3月份初基金大跌，好多小白被套。&lt;/p&gt;
+&lt;p&gt;我也是在年初时刚入场，一进场没几天基金就开始一直绿，我买的一支基金最大有快将近7%的回测，于是我承受不了这么大的回测就果断离场，还好的就是本金比较低，也就投了几百块钱，没有多大的损失，就当是进场的入场费啦。&lt;/p&gt;
+&lt;p&gt;通过进场后，看了好多大V写的投资策略以及方法，发现真的是一行有一行的门道，不是你靠运气就可以得到你想要的收益的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;投资是认知的一种变现，投资一定要用自己的零散的钱进行投资，投自己认同的板块，风险与收益并不等同。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;通过知乎的T大、有知有行的孟岩、E大、二鸟老师、静姐，让我学习到不少这方面的知识，不仅是知识，更多的是他们带给我的投资观。&lt;/p&gt;
+&lt;h3 id=&#34;投资是认知的一种变现&#34;&gt;&lt;strong&gt;&lt;strong&gt;投资是认知的一种变现&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;这是我学习到的最重要的思想，其中还有很多很多，不仅仅是投资方面，更重要的是人性，我们最后战胜的是自己贪婪的人性。&lt;/p&gt;
+&lt;h3 id=&#34;投资实盘&#34;&gt;&lt;strong&gt;&lt;strong&gt;投资实盘&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;投资种类分析报表&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;投资种类	  名称	                      金额	入手净值	板块估值	预计出售估值平台
+004752	中证传媒	广发中证传媒ETF链接A	600	0.8028	较为低估	跟车	且慢
+000942	信息技术	广发信息技术ETF链接A	500	1.1612	较为低估	跟车	且慢
+006327	中国海外互联	易方达中证海外中国互联网50	500	1.4454	较为低估	跟车	直销
+164906	中国海外互联	交银中证海外中国互联网指数	400	1.9402	较为低估	跟车	且慢
+110020	沪深300	易方达沪深300ETF链接A	18	1.7971	高估	5-8%卖出	直销
+160119	中证500	南方中证500ETF链接A	200	1.7013	低估	跟车	直销
+050025	标普500	博时标普500ETF链接A	200	3.0076	高估	6-8%卖出	直销
+270042	纳指	广发纳斯达克100指数A	200	3.7754	高估	6-8%卖出	直销
+161005	主动	富国天惠成长混合(LOF)	62			同红利清	直销
+100032	中证红利	富国中证红利指数增强A	50	1.1129 	较为低估	回本清	直销
+110037	债券	易方达纯债债券A	180	1.1			直销
+519152	债券	新华纯债添利A	20	1.2478			且慢
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;投资策略&#34;&gt;&lt;strong&gt;&lt;strong&gt;投资策略&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;高额收益（10%以上）：长赢指数投资计划–S定投、极简组合    40%&lt;br&gt;
+稳定长钱（6-10%）：我要稳稳的幸福、春华秋实    40%&lt;br&gt;
+固定收益（3-4%）：货币三佳   20%&lt;/p&gt;
+&lt;h3 id=&#34;风险提示&#34;&gt;&lt;strong&gt;&lt;strong&gt;风险提示&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;只要是投资行为，就一定有风险。都有可能出现本金损失，甚至遇到本金尽失的可能。&lt;br&gt;
+任何跟你讲投资就是捡钱的，不是傻子，就是骗子。&lt;br&gt;
+想要在投资中不亏钱，巴菲特做不到，格雷厄姆做不到，索罗斯做不到，冯柳、张坤也做不到……所有你听过的，见过的世界顶级投资人都做不到。&lt;br&gt;
+面对风险，我们能做的有这么几个：&lt;br&gt;
+第一点，充分发挥我们的调研能力和研究能力，去避开那些容易发现的风险；&lt;br&gt;
+第二点，明确自己的风险偏好，不做有自己无法承受的风险的投资行为；&lt;br&gt;
+第三点，有铁血的纪律：闲钱投资，不借钱投资，不懂不投。&lt;/p&gt;
+">【理财】理财投资5年规划</a>
+      </div>
+      
+      <div class="item">
         <a class="result-title" style="opacity: 0;" href="http://imengyi.ink/q1iYw9Yps/"" data-c="
           &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;：记录每天的学习情况以及&lt;strong&gt;未完成的任务&lt;/strong&gt;（主要是为完成的任务），打油，考研人&lt;br&gt;
@@ -1248,29 +1283,29 @@
 &lt;p&gt;&lt;strong&gt;拖延日记本&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2020117-星期日&#34;&gt;2020/1/17  星期日&lt;/h3&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5269968&#34;&gt; 未进行相关课程复习&lt;br&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-6695384&#34;&gt; 未进行相关课程复习&lt;br&gt;
 原因：&lt;br&gt;
-&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5269968&#34;&gt; 未进行相关课程复习
+&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-6695384&#34;&gt; 未进行相关课程复习
 原因：
 主要去查找最新的资料以及资料的下载（资料已准备完备）&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;2020118-星期一&#34;&gt;2020/1/18  星期一&lt;/h3&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9930935&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9930935&#34;&gt; 李永乐的线代导学课+笔记&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-2711462&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-2711462&#34;&gt; 恋词25个&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-7063146&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-7063146&#34;&gt; 李永乐的线代导学课+笔记&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-8129838&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-8129838&#34;&gt; 恋词25个&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;2020119-星期二&#34;&gt;2020/1/19  星期二&lt;/h3&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-58353&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-58353&#34;&gt; 王式安的概率论导学课&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-6753945&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-6753945&#34;&gt; 更正一下自己的学习规划（觉得自己的方向有点问题）&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-3867841&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-3867841&#34;&gt; 单词25个&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5066873&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5066873&#34;&gt; 王式安的概率论导学课&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-998113&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-998113&#34;&gt; 更正一下自己的学习规划（觉得自己的方向有点问题）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-2324273&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-2324273&#34;&gt; 单词25个&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;2020120-星期三&#34;&gt;2020/1/20  星期三&lt;/h3&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-462900&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-462900&#34;&gt; 高等代数第一章（课本+习题）&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-8962912&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-8962912&#34;&gt; 张宇30讲---3讲&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-2647767&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-2647767&#34;&gt; 专业课---1讲&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-8891140&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-8891140&#34;&gt; 单词25个+复习&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-2904057&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-2904057&#34;&gt; 高等代数第一章（课本+习题）&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-6305271&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-6305271&#34;&gt; 张宇30讲---3讲&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-3855723&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-3855723&#34;&gt; 专业课---1讲&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-7264197&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-7264197&#34;&gt; 单词25个+复习&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 ">【考研自习室】拖延日记本</a>
       </div>
@@ -1364,8 +1399,8 @@ var foo = &#39;bar&#39;;
 &lt;li&gt;项目3&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul class=&#34;contains-task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-9696753&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-9696753&#34;&gt; 计划任务&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-2953818&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-2953818&#34;&gt; 完成任务&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5860318&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5860318&#34;&gt; 计划任务&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input class=&#34;task-list-item-checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34; id=&#34;task-item-5500226&#34;&gt;&lt;label class=&#34;task-list-item-label&#34; for=&#34;task-item-5500226&#34;&gt; 完成任务&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;创建一个表格&#34;&gt;创建一个表格&lt;/h2&gt;
 &lt;p&gt;一个简单的表格是这么创建的：&lt;/p&gt;
@@ -2581,6 +2616,7 @@ Windows无法更新，无法启用功能 ，0x8000FFFF错误，系统存在损�
 </script>
 <script src="/media/js/motion.js"></script>
 
+
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <script>
   var scroll = new SmoothScroll('a[href*="#"]', {
@@ -2593,5 +2629,7 @@ Windows无法更新，无法启用功能 ，0x8000FFFF错误，系统存在损�
 
 
 <script src="/media/js/cool.js"></script>
+
+
 
 </html>
