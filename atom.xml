@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://lh-mengyi1314.github.io</id>
     <title> 我的编程学习记录</title>
-    <updated>2021-08-16T08:09:06.878Z</updated>
+    <updated>2021-08-17T15:58:13.245Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://lh-mengyi1314.github.io"/>
     <link rel="self" href="http://lh-mengyi1314.github.io/atom.xml"/>
@@ -37,6 +37,13 @@
         <link href="http://lh-mengyi1314.github.io/u2-HMN1Dy/">
         </link>
         <updated>2021-07-27T06:38:52.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【理财】理财投资5年规划以及手记（一）]]></title>
+        <id>http://lh-mengyi1314.github.io/4VaBk7QgS/</id>
+        <link href="http://lh-mengyi1314.github.io/4VaBk7QgS/">
+        </link>
+        <updated>2021-05-28T14:26:42.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[【正大杯】参赛文件及PPT]]></title>
@@ -95,7 +102,7 @@
         <updated>2020-07-05T12:27:24.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【软件】惊奇目录(每周一更)]]></title>
+        <title type="html"><![CDATA[【软件】惊奇目录]]></title>
         <id>http://lh-mengyi1314.github.io/HdS_1rQOF/</id>
         <link href="http://lh-mengyi1314.github.io/HdS_1rQOF/">
         </link>
@@ -107,12 +114,5 @@
         <link href="http://lh-mengyi1314.github.io/6hHQv57nF/">
         </link>
         <updated>2020-07-04T10:36:03.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【学习】浏览器如何安装Chrome插件]]></title>
-        <id>http://lh-mengyi1314.github.io/QZICRZIrV/</id>
-        <link href="http://lh-mengyi1314.github.io/QZICRZIrV/">
-        </link>
-        <updated>2020-07-04T10:34:57.000Z</updated>
     </entry>
 </feed>
