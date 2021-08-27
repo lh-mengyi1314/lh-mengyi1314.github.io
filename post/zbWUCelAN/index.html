@@ -1,0 +1,248 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>【学习】Gridea+Github部署个人博客 | 我的编程学习记录</title>
+
+<link rel="shortcut icon" href="http://lh-mengyi1314.github.io/favicon.ico?v=1630033149675">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="http://lh-mengyi1314.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=604385a37bfe76dc37c5e1b54f44db27"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', '604385a37bfe76dc37c5e1b54f44db27');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            我的编程学习记录
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1630033149675" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    【学习】Gridea+Github部署个人博客
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-07-05 ·
+                    </time>
+                    
+                        <a href="http://lh-mengyi1314.github.io/tag/0eH0vQFcXK/" class="post-tags">
+                            # 学习
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="引言">引言</h2>
+<p>主要是因为一些官方博客（知乎、博客园等），你发表一些自己的看法或见解是要先审核的，而机器审核会使得我们原本并不违规的内容被禁，导致自己的博客账号被封，所写的内容也就灰飞烟灭啦。</p>
+<p>我自己是从零开始部署的，其实也就三-五天就好啦，主要是一些细节问题，我这里将会讲解我所遇到的一些问题，有的内容是大神写的比较好的，我就直接放链接啦~~~💖💖💖</p>
+<h3 id="目录">目录</h3>
+<ul>
+<li>
+<p>1、Gridea的安装</p>
+</li>
+<li>
+<p>2、Gridea与Github的远程连接</p>
+</li>
+<li>
+<p>3、Gridea的主题</p>
+</li>
+<li>
+<p>4、绑定自己的域名</p>
+</li>
+<li>
+<p>5、主题优化</p>
+</li>
+<li>
+<p>6、问题汇总</p>
+</li>
+</ul>
+<h3 id="1-gridea的安装">1、Gridea的安装</h3>
+<p>我们进入<a href="https://gridea.dev">Gridea</a>的官方网站下载安装</p>
+<h3 id="2-gridea与github的远程连接">2、Gridea与Github的远程连接</h3>
+<p>🔵<strong>创建 GitHub 账号，并创建一个仓库 Token</strong>。点击<a href="https://github.com">GitHub</a>，进行注册。登录 GitHub 之后，点击<a href="https://github.com/settings/tokens/new">这里</a>创建一个 Token，<strong>勾选上 repo 的相关权限即可</strong>。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。</p>
+<figure data-type="image" tabindex="1"><img src="http://lh-mengyi1314.github.io/post-images/1575874237236.png" alt="" loading="lazy"></figure>
+<p>🔵🔵<strong>创建仓库，存放构建后的网站文件</strong>。创建一个公开仓库，名为用户名.github.io。（将用户名替换为你的 GitHub 用户名）</p>
+<figure data-type="image" tabindex="2"><img src="http://lh-mengyi1314.github.io/post-images/1575874957071.png" alt="" loading="lazy"></figure>
+<p>🔵🔵🔵<strong>进入 Gridea 进行远程设置</strong>。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。</p>
+<figure data-type="image" tabindex="3"><img src="http://lh-mengyi1314.github.io/post-images/1575875241904.png" alt="" loading="lazy"></figure>
+<p>🔵🔵🔵🔵<strong>同步</strong>。点击 Gridea 中的 同步按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你在第 3 步所填写的域名。</p>
+<p>以上，就完成一个静态博客的搭建了，期待你的每一次落笔成文。</p>
+<p>📢📢📢附：<a href="https://www.bilibili.com/video/av54011033">录制的Gridea视频</a></p>
+<h3 id="3-gridea的主题">3、Gridea的主题</h3>
+<p>附上<a href="https://gridea.dev/themes">Gridea的主题地址</a></p>
+<p>我比较喜欢next主题：<a href="http://imengyi.xyz">预览</a></p>
+<h3 id="4-绑定自己的域名">4、绑定自己的域名</h3>
+<p>🔴域名解析</p>
+<p>添加两个解析地址</p>
+<table>
+<thead>
+<tr>
+<th>解析地址</th>
+<th>子域名</th>
+<th>指向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>WWW</td>
+<td>185.199.110.153</td>
+</tr>
+<tr>
+<td>cname</td>
+<td></td>
+<td>62e44db293e93d2d.ncname.com</td>
+</tr>
+</tbody>
+</table>
+<p>💥💥💥注意：</p>
+<p>子域名：<br>
+第一个是电脑桌面<strong>win+r</strong>,输入<strong>cmd</strong>,<strong>ping imengyi.github.io</strong>(这里输入自己的域名进行ping),得到[185.199.110.153]解析这个地址。<br>
+第二个是<a href="https://console.nodecache.com/login">nodecache</a>添加加速的网站，<strong>cname</strong>到他给你的地址。</p>
+<h3 id="5-主题优化">5、主题优化</h3>
+<p>next主题部署：【<a href="https://yeming.site/post/1JA_OJlig">next</a>】</p>
+<p>使用命令克隆项目，这个非常的慢，【<a href="https://www.zhihu.com/people/imengyi">加速下载方法</a>】</p>
+<h3 id="6-问题汇总">6、问题汇总</h3>
+<p>【<a href="https://blog.csdn.net/weixin_42429718/article/details/104378207">大神的问题汇总</a>】这个大神帮助我很多的问题。</p>
+<p><strong>有什么问题可以评论区讨论，博主看到会及时回复的</strong></p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="http://lh-mengyi1314.github.io/post/4uoA75UFN/" class="post-title gt-a-link">
+                    【考研】进入大三啦，考研初整理
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">学如逆水行舟，不进则退</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        <a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra"><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN/又拍云_logo.png"align="absmiddle" width="59px" height="30px" /></a>
+<span>提供加速服务</span>
+
+<div class="hui-footer-ft-row">
+	<p class="hui-footer-ft-contact"> <span><img src="http://www.beian.gov.cn/img/new/gongan.png" /><a href="http://www.beian.gov.cn/portal/registerSystemInfo/" target="_blank">豫公网安备 41172102000179号 &nbsp;&nbsp;&nbsp;&nbsp;</span><a href="http://beian.miit.gov.cn/" target="_blank">豫ICP备2021017011号-1</a> </p>
+	</div>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="http://lh-mengyi1314.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
